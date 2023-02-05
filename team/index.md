@@ -1,46 +1,58 @@
 ---
-title: Team
+title: Members
+description: Our team members
 nav:
   order: 3
   tooltip: About our team
+header: images/banner_ssu.jpg
+footer: images/banner_ssu.jpg
+footer-dark: true
 ---
 
-# <i class="fas fa-users"></i>Team
+# <i class="fas fa-users"></i>Members
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+
 
 {% include section.html %}
 
+## Professor
 {%
   include list.html
   data="members"
   component="portrait"
   filters="role: pi"
 %}
+
+---
+## Graduate Students
 {%
   include list.html
   data="members"
   component="portrait"
   filters="role: phd"
 %}
+---
+
+## Undergraduate Students
 {%
   include list.html
   data="members"
   component="portrait"
-  filters="role: programmer"
+  filters="role: undergrad"
 %}
 {:.center}
 
-{% include section.html background="images/banner.jpg" dark=true%}
+
+<!--
+{% include section.html background="images/banner_ssu.jpg" dark=true%}
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+-->
 
+<!--
 {% include section.html %}
-
 ## Join
 
 #### Post Dogtoral Researcher
@@ -53,7 +65,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {% include link.html type="external" link="https://google.com/" text="Apply Now" icon="" style="button" %}
 {:.center}
-
+-->
+<!--
 {% include section.html %}
 
 ## Funding
@@ -89,3 +102,4 @@ Our work is made possible by funding from several organizations.
   link6="https://nasa.gov/"
   tooltip6="Cool Initiative"
 %}
+-->

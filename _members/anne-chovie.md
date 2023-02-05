@@ -1,8 +1,8 @@
 ---
 name: Anne Chovie
 image: images/member.jpg
-description: Bark Ops Engineer
-role: programmer
+description: 
+role: undergrad
 aliases:
   - A. Chovie
   - A Chovie
@@ -13,5 +13,4 @@ links:
 ---
 
 Anne is a good dog.
-She studied at the University of Good Dogs.
 She likes pets, walkies, and treats.

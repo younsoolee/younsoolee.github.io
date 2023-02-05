@@ -2,45 +2,56 @@
 title: Home
 ---
 
-# Your Lab Slogan
+## **Operations Research Lab @ Dept. of IISE, SSU** 
+숭실대학교 산업정보시스템공학과 경영과학연구실 (OR Lab) 홈페이지에 오신 겻을 환영합니다.   
+본 연구실에서는 경영과학 및 최적화 기법의 이론 및 실제 산업 적용에 관한 연구를 수행 중입니다.
+{:.center}
 
-[Lab Website Template](https://github.com/greenelab/lab-website-template) is an easy-to-use, flexible website template for [labs](https://www.greenelab.com/), with automatic citations, GitHub tag imports, pre-built components, and more.
-Spend less time reinventing the wheel, and more time running your lab.
+{% include section.html %}
 
-{%
-  include link.html
-  type="github"
-  icon=""
-  text="See the template on GitHub"
-  link="greenelab/lab-website-template"
-  style="button"
-%}
-{%
-  include link.html
-  type="docs"
-  icon=""
-  text="See the documentation"
-  link="https://github.com/greenelab/lab-website-template/wiki"
-  style="button"
-%}
+### NOTICE
+경영과학연구실에서 학부 연구생 및 대학원생을 모집하고 있습니다.  
+관심있는 학생은 *younsoo.lee@ssu.ac.kr*로 연락바랍니다.   
+{:.center}
+
+
+{% include link.html type="email" link="mailto:younsoo.lee@ssu.ac.kr" text="younsoo.lee@ssu.ac.kr" icon="" style="button" %}
 {:.center}
 
 {% include section.html full=true %}
 
-{% include banner.html image="images/banner.jpg" %}
+{% include banner.html image="images/banner_ssu.jpg" %}
 
+
+<!--
+## Research Interests
+
+* Operations Research & Discrete Optimization
+  - Polyhedral analysis, Valid inequalities, Extended formulation
+  - Cutting plane, Branch-and-Cut, Branch-and-Price
+* Sequential Decision Making under Uncertainty 
+  - Approximate dynamic Programming
+  - Multi-stage stochastic Programming
+  - Reinforcement learning
+* 스마트 생산시스템 (Smart Production Systems)
+  - Design, Planning, Production, Logistics
+  - Manufacturing Industry
+  - Energy Industry 
+-->
+  
 {% include section.html %}
-
-# Highlights
-
+<!--
+Research
+-->
 {% capture text %}
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
+- 경영과학 및 정수최적화 기법
+- 불확실성 하에서의 순차적 의사결정 기법
+- 스마트 생산시스템 설계 및 운영
+  
 {%
   include link.html
   link="research"
-  text="See what we've published"
+  text="More on our research"
   icon="fas fa-arrow-right"
   flip=true
 %}
@@ -49,38 +60,18 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/ssu/7.jpg"
   link="research"
-  title="Our Research"
+  title="Research Interests"
   text=text
 %}
 
+<!--
+Members
+-->
 {% capture text %}
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-{%
-  include link.html
-  link="tools"
-  text="Browse our tools"
-  icon="fas fa-arrow-right"
-  flip=true
-%}
-{:.center}
-{% endcapture %}
-
-{%
-  include feature.html
-  image="images/photo.jpg"
-  link="resources"
-  title="Our Resources"
-  flip=true
-  text=text
-%}
-
-{% capture text %}
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
+- 연구실 구성원 
+   
 {%
   include link.html
   link="team"
@@ -93,11 +84,35 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/ssu/7.jpg"
   link="team"
-  title="Our Team"
+  title="Team Members"
+  flip=true
   text=text
 %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+<!--
+News
+-->
+{% capture text %}
+- 연구실 소식 
+  
+{%
+  include link.html
+  link="news"
+  text="More news"
+  icon="fas fa-arrow-right"
+  flip=true
+%}
+{:.center}
+{% endcapture %}
+
+{%
+  include feature.html
+  image="images/ssu/7.jpg"
+  link="news"
+  title="Lab News"
+  text=text
+%}
+
+

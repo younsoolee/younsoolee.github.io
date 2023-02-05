@@ -1,6 +1,6 @@
 pi:
   icon: fas fa-microscope
-  text: Principal Investigator
+  text: Professor
 
 postdoc:
   icon: fas fa-glasses
@@ -10,6 +10,10 @@ phd:
   icon: fas fa-graduation-cap
   text: PhD Student
 
+master:
+  icon: fas fa-graduation-cap
+  text: Master Student
+  
 undergrad:
   icon: fas fa-user-graduate
   text: Undergraduate Student

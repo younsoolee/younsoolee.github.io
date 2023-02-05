@@ -5,14 +5,24 @@ nav:
   tooltip: Published works
 ---
 
-# <i class="fas fa-microscope"></i>Research
+# <i class="fas fa-microscope"></i> **Research Interests**
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+* Operations Research & Discrete Optimization
+  - Polyhedral analysis, Valid inequalities, Extended formulation
+  - Cutting plane, Branch-and-Cut, Branch-and-Price
+* Sequential Decision Making under Uncertainty 
+  - Approximate dynamic Programming
+  - Multi-stage stochastic Programming
+  - Reinforcement learning
+* 스마트 생산시스템 (Smart Production Systems)
+  - Design, Planning, Production, Logistics
+  - Manufacturing Industry
+  - Energy Industry 
 
 {% include section.html %}
+
+# <i class="fas fa-book"></i> **Publications**
 
 {% include search-box.html %}
 
