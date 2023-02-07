@@ -2,7 +2,7 @@
 title: Members
 description: Our team members
 nav:
-  order: 3
+  order: 2
   tooltip: About our team
 header: images/banner_ssu.jpg
 footer: images/banner_ssu.jpg
@@ -47,8 +47,6 @@ footer-dark: true
 <!--
 {% include section.html background="images/banner_ssu.jpg" dark=true%}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 -->
 
 <!--
@@ -57,7 +55,6 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
 
 #### Post Dogtoral Researcher
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 
 - 3+ (dog) years experience managing bone portfolios
 - Strong desire to learn tricks and go on walkies
@@ -66,6 +63,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 {% include link.html type="external" link="https://google.com/" text="Apply Now" icon="" style="button" %}
 {:.center}
 -->
+
 <!--
 {% include section.html %}
 
