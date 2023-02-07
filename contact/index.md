@@ -7,7 +7,7 @@ nav:
 
 # <i class="fas fa-envelope"></i>Contact
 
-Our lab is part of the [Department of Industrial and Information Systems Engineering](https://iise.ssu.ac.kr/), at [Soongsil University](https://ssu.ac.kr/).
+Our lab is part of the [Department of Industrial and Information Systems Engineering](https://iise.ssu.ac.kr/) at [Soongsil University](https://ssu.ac.kr/).
 
 {%
   include link.html

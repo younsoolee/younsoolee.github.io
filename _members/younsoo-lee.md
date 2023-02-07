@@ -5,6 +5,7 @@ description:
 role: pi
 aliases:
   - Y. Lee
+  - Younsoo Lee
 links:
   home-page: https://sites.google.com/view/younsoo-lee
   email: younsoo.lee@ssu.ac.kr

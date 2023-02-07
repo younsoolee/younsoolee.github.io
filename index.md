@@ -3,7 +3,7 @@ title: Home
 ---
 
 ## **Operations Research Lab @ Dept. of IISE, SSU** 
-숭실대학교 산업정보시스템공학과 경영과학연구실 (OR Lab) 홈페이지에 오신 겻을 환영합니다.   
+숭실대학교 산업정보시스템공학과 경영과학연구실 (OR Lab) 홈페이지에 오신 것을 환영합니다.   
 본 연구실에서는 경영과학 및 최적화 기법의 이론 및 실제 산업 적용에 관한 연구를 수행 중입니다.
 {:.center}
 
@@ -70,7 +70,7 @@ Research
 Members
 -->
 {% capture text %}
-- 연구실 구성원 
+- 연구실 구성원 소개
    
 {%
   include link.html
@@ -95,7 +95,7 @@ Members
 News
 -->
 {% capture text %}
-- 연구실 소식 
+-  *(2023-02-05)* OR Lab 홈페이지 개설
   
 {%
   include link.html
