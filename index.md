@@ -95,7 +95,7 @@ Members
 News
 -->
 {% capture text %}
--  *(2023-02-05)* OR Lab 홈페이지 개설
+-  *(2023-02-24)* OR Lab 홈페이지 개설
   
 {%
   include link.html

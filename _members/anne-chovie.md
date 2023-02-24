@@ -1,4 +1,5 @@
 ---
+published: false
 name: Anne Chovie
 image: images/member.jpg
 description: 

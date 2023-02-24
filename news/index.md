@@ -13,9 +13,7 @@ nav:
 
 {% include list.html data="posts" component="post-excerpt" %}
 
-{% include section.html %}
 
-## News
 
 <!-- Twitter embeds from https://publish.twitter.com/ -->
 <!--

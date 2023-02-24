@@ -30,8 +30,11 @@ footer-dark: true
   include list.html
   data="members"
   component="portrait"
-  filters="role: phd"
+  filters="role: grad"
 %}
+
+
+<!-- 
 ---
 
 ## Undergraduate Students
@@ -41,38 +44,23 @@ footer-dark: true
   component="portrait"
   filters="role: undergrad"
 %}
-{:.center}
+{:.center} -->
 
 
-<!--
-{% include section.html background="images/banner_ssu.jpg" dark=true%}
 
+<!-- {% include section.html %}
+ -->
+
+
+<!-- ## Funding 
 -->
 
-<!--
-{% include section.html %}
-## Join
-
-#### Post Dogtoral Researcher
-
-
-- 3+ (dog) years experience managing bone portfolios
-- Strong desire to learn tricks and go on walkies
-- Aptitude to sit and stay
-
-{% include link.html type="external" link="https://google.com/" text="Apply Now" icon="" style="button" %}
-{:.center}
+<!-- Our work is made possible by funding from several organizations.
+{:.center} 
 -->
 
-<!--
-{% include section.html %}
 
-## Funding
-
-Our work is made possible by funding from several organizations.
-{:.center}
-
-{%
+<!-- {%
   include gallery.html
   style="square"
 
@@ -99,5 +87,4 @@ Our work is made possible by funding from several organizations.
   image6="images/photo.jpg"
   link6="https://nasa.gov/"
   tooltip6="Cool Initiative"
-%}
--->
+%}  -->

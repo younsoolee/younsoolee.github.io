@@ -2,7 +2,7 @@
 name: Felix Cited
 image: images/member.jpg
 description: 
-role: phd
+role: grad
 group: alum
 aliases:
   - F. Cited
@@ -10,7 +10,6 @@ aliases:
 links:
   home-page: felixcited.com
   email: felix@cited.com
-  twitter: felixcited
 ---
 
 Felix is a good dog.
