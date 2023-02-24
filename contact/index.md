@@ -5,9 +5,14 @@ nav:
   tooltip: Email, address, and location
 ---
 
-# <i class="fas fa-envelope"></i>Contact
+# <i class="fas fa-mail-bulk"></i>Contact
 
-Our lab is part of the [Department of Industrial and Information Systems Engineering](https://iise.ssu.ac.kr/) at [Soongsil University](https://ssu.ac.kr/).
+<!-- Our lab is part of the [Dept. of Industrial and Information Systems Engineering](https://iise.ssu.ac.kr/) at [Soongsil University](https://ssu.ac.kr/). -->
+
+
+{% include section.html %}
+
+### <i class="fas fa-envelope"></i>E-Mail
 
 {%
   include link.html
@@ -17,33 +22,47 @@ Our lab is part of the [Department of Industrial and Information Systems Enginee
   tooltip=""
   link="younsoo.lee@ssu.ac.kr"
   style="button"
+%}{%
+  include link.html
+  type="email"
+  icon=""
+  text="younsoo.lee22@gmail.com"
+  tooltip=""
+  link="younsoo.lee22@gmail.com"
+  style="button"
 %}
+{:.center}
+
+
+{% include section.html %}
+
+### <i class="fas  fa-phone"></i>Phone
+
 {%
   include link.html
   type="phone"
   icon=""
-  text="(02) 880-8080"
-  tooltip=""
-  link="+82-02-880-8080"
+  text="TBA"
+  tooltip="Phone"
+  link=""
   style="button"
 %}
+{:.center}
+{% include section.html %}
+### <i class="fas  fa-map-marker"></i>Address
+
+06978 서울특별시 동작구 상도로 369 형남공학관
+{:.center}
+
 {%
   include link.html
   type="address"
   icon=""
-  text="Naver Map"
-  tooltip="Our location on Naver Map"
-  link="https://naver.me/IIZXSGUe"
+  text="Google Map"
+  tooltip="Our location on Google Map"
+  link="https://goo.gl/maps/zgjVKyih8rGikftz5"
   style="button"
 %}
 {:.center}
 
-{% include section.html %}
-
-### <i class="fas fa-mail-bulk"></i>Mailing Address
-
-That St & The Other St  
-Porters Lake, NS B3E 1H3  
-Canada
-{:.center}
 
