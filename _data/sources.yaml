@@ -6,7 +6,7 @@
     - OLED display
 
 - id: doi:10.1016/j.ejor.2021.12.032
-  image: ./images/research_summary/ejor.PNG
+  image: ./images/research_summary/ejor.png
   tags:
     - lot-sizing and scheduling
     - approximate dynamic programming

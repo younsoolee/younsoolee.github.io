@@ -23,8 +23,8 @@
   publisher: European Journal of Operational Research
   date: '2022-10-01'
   link: https://doi.org/grq5zn
-  image: ./images/research_summary/ejor.PNG
+  image: ./images/research_summary/ejor.png
   tags:
   - lot-sizing and scheduling
   - approximate dynamic programming
-  _cache: fcad5f49e67c003a67a86821cbbe6097ed6d2a554fb4e4cc185a0287963a1403
+  _cache: fa3a1e6a8774d8421252a029cf6fc4719863b49b873e6f39e3273b39ffff645e
