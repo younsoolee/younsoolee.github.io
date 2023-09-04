@@ -9,7 +9,6 @@ header: images/banner_ssu.jpg
 footer-dark: true
 ---
 
-<!-- # <i class="fas fa-users"></i>Members -->
 
 
 
