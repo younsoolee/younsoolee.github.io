@@ -1,0 +1,137 @@
+I"r<!-- # <i class="fas fa-users"></i>Members -->
+
+<h2 id="-professor"><i class="fas fa-microscope"></i> Professor</h2>
+<a href="/members/younsoo-lee.html" class="portrait" style="--width: 150px">
+<span class="portrait_image">
+    <img
+      src="/images/members/ylee.jpeg"
+      onerror="this.src = '/images/placeholder.svg'; this.onerror = null;"
+      loading="lazy"
+      alt="Younsoo Lee"
+    >
+  </span><span class="portrait_name">
+      Younsoo Lee
+    </span><span class="portrait_description">
+      
+    </span></a>
+
+<hr />
+<h2 id="-undergraduate-students"><i class="fas fa-users"></i> Undergraduate Students</h2>
+<a href="/members/bosung.html" class="portrait" style="--width: 150px">
+<span class="portrait_image">
+    <img
+      src="/images/members/23bs.jpeg"
+      onerror="this.src = '/images/placeholder.svg'; this.onerror = null;"
+      loading="lazy"
+      alt="이보성"
+    >
+  </span><span class="portrait_name">
+      이보성
+    </span><span class="portrait_description">
+      
+    </span></a>
+<a href="/members/donguk.html" class="portrait" style="--width: 150px">
+<span class="portrait_image">
+    <img
+      src="/images/members/23du.jpeg"
+      onerror="this.src = '/images/placeholder.svg'; this.onerror = null;"
+      loading="lazy"
+      alt="민동욱"
+    >
+  </span><span class="portrait_name">
+      민동욱
+    </span><span class="portrait_description">
+      
+    </span></a>
+<a href="/members/minkyu.html" class="portrait" style="--width: 150px">
+<span class="portrait_image">
+    <img
+      src="/images/members/23mk.jpeg"
+      onerror="this.src = '/images/placeholder.svg'; this.onerror = null;"
+      loading="lazy"
+      alt="강민규"
+    >
+  </span><span class="portrait_name">
+      강민규
+    </span><span class="portrait_description">
+      
+    </span></a>
+
+<!-- 
+---
+## <i class="fas fa-users"></i> Students
+
+-->
+<!-- <!-- section break -->
+<p class="center">–&gt;</p>
+
+<!-- ## Funding 
+-->
+
+<!-- Our work is made possible by funding from several organizations.
+{:.center} 
+-->
+
+<!-- <div class="gallery" data-style="square" data-number="6"><a
+        href="https://nasa.gov/"
+        class="gallery_item"
+        data-tooltip="Cool Foundation"
+      >
+        <img
+          src="/images/photo.jpg"
+          loading="lazy"
+          alt=""
+        />
+      </a><a
+        href="https://nasa.gov/"
+        class="gallery_item"
+        data-tooltip="Cool Institute"
+      >
+        <img
+          src="/images/photo.jpg"
+          loading="lazy"
+          alt=""
+        />
+      </a><a
+        href="https://nasa.gov/"
+        class="gallery_item"
+        data-tooltip="Cool Initiative"
+      >
+        <img
+          src="/images/photo.jpg"
+          loading="lazy"
+          alt=""
+        />
+      </a><a
+        href="https://nasa.gov/"
+        class="gallery_item"
+        data-tooltip="Cool Foundation"
+      >
+        <img
+          src="/images/photo.jpg"
+          loading="lazy"
+          alt=""
+        />
+      </a><a
+        href="https://nasa.gov/"
+        class="gallery_item"
+        data-tooltip="Cool Institute"
+      >
+        <img
+          src="/images/photo.jpg"
+          loading="lazy"
+          alt=""
+        />
+      </a><a
+        href="https://nasa.gov/"
+        class="gallery_item"
+        data-tooltip="Cool Initiative"
+      >
+        <img
+          src="/images/photo.jpg"
+          loading="lazy"
+          alt=""
+        />
+      </a></div>
+  -->
+:ET

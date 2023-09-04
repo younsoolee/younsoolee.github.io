@@ -4,8 +4,8 @@ description: Members
 nav:
   order: 2
   tooltip: Members
-header: images/banner_ssu.jpg
 footer: images/banner_ssu.jpg
+header: images/banner_ssu.jpg
 footer-dark: true
 ---
 
