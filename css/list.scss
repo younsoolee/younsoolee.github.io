@@ -1,0 +1,25 @@
+---
+---
+
+@import "palettes";
+@import "theme";
+@import "mixins";
+
+ul,
+ol {
+  margin: 30px 0;
+  @include trim-v-margins;
+  padding-left: 10px;
+
+  li {
+    margin: 5px 0;
+    @include trim-v-margins;
+    padding-left: 5px;
+    text-align: left;
+    line-height: $spacing + 0.5;
+  }
+}
+
+ul {
+  list-style-type: disc;
+}

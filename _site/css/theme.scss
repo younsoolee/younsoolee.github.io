@@ -1,0 +1,28 @@
+// colors for links, tags, etc.
+// see palettes.scss for available colors
+$accent: $light-blue-500;
+$light-accent: $light-blue-200;
+$dark-accent: $light-blue-900;
+
+// font types
+// also see /_includes/fonts.html to change fonts
+$serif: "IBM Plex Sans KR", "Noto Serif KR", "Lora", serif; // font name, fallback font type
+$sans: "IBM Plex Sans KR", "Poppins", "Noto Serif KR", sans-serif, ;
+$mono: "Cousine", "Noto Serif KR", monospace;
+
+// line spacing
+$spacing: 1.3;
+
+// transitions
+$fast: 0.25s ease;
+$slow: 0.5s ease;
+
+// effects
+$shadow: 0 0 5px 0 #00000030;
+$rounded: 5px;
+
+// screen widths
+// used by various components
+$page: 1200px; // max-width of the main page column
+$tablet: 800px; // screen width cutoff point for tablets
+$phone: 1200px; // screen width cutoff point for phones

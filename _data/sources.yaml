@@ -1,0 +1,19 @@
+
+- id: doi:10.1016/j.omega.2019.02.005
+  image: ./images/research_summary/omega.png
+  tags:
+    - lot-sizing and scheduling
+    - OLED display
+
+- id: doi:10.1016/j.ejor.2021.12.032
+  image: ./images/research_summary/ejor.png
+  tags:
+    - lot-sizing and scheduling
+    - approximate dynamic programming
+
+- id: doi:10.1016/j.ejor.2023.03.003
+  image: ./images/research_summary/sp.png
+  tags:
+    - lot-sizing and scheduling
+    - valid inequality
+    - extended formulation

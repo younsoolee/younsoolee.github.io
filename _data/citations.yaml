@@ -1,0 +1,45 @@
+# DO NOT EDIT, GENERATED AUTOMATICALLY FROM SOURCES.YAML (AND ELSEWHERE)
+# See https://github.com/greenelab/lab-website-template/wiki/Citations
+
+- id: doi:10.1016/j.omega.2019.02.005
+  title: Lot-sizing and scheduling in flat-panel display manufacturing process
+  authors:
+  - Younsoo Lee
+  - Kyungsik Lee
+  publisher: Omega
+  date: '2020-06-01'
+  link: https://doi.org/grq5zk
+  image: ./images/research_summary/omega.png
+  tags:
+  - lot-sizing and scheduling
+  - OLED display
+  _cache: 5f9f44847eb872e9ab0c85848388a4711402c912d09c0fb5a4597193b2b79bdb
+- id: doi:10.1016/j.ejor.2021.12.032
+  title: New integer optimization models and an approximate dynamic programming algorithm
+    for the lot-sizing and scheduling problem with sequence-dependent setups
+  authors:
+  - Younsoo Lee
+  - Kyungsik Lee
+  publisher: European Journal of Operational Research
+  date: '2022-10-01'
+  link: https://doi.org/grq5zn
+  #image: ./images/research_summary/ejor.png
+  tags:
+  - lot-sizing and scheduling
+  - approximate dynamic programming
+  _cache: fa3a1e6a8774d8421252a029cf6fc4719863b49b873e6f39e3273b39ffff645e
+- id: doi:10.1016/j.ejor.2023.03.003
+  title: Valid inequalities and extended formulations for lot-sizing and scheduling
+    problem with sequence-dependent setups
+  authors:
+  - Younsoo Lee
+  - Kyungsik Lee
+  publisher: European Journal of Operational Research
+  date: '2023-10-01'
+  link: https://doi.org/grzdqd
+  #image: ./images/research_summary/sp.png
+  tags:
+  - lot-sizing and scheduling
+  - valid inequality
+  - extended formulation
+  _cache: 26cf045fdab6868763f452f16cfecb9a8aa34b9db5d15a9fab29ab9468d4a869
