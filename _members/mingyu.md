@@ -1,6 +1,6 @@
 ---
-name: 강민규
-image: images/members/23mk.jpeg
+name: Mingyu Kang
+image: images/members/23mg.jpeg
 description: 
 role: ug
 links:

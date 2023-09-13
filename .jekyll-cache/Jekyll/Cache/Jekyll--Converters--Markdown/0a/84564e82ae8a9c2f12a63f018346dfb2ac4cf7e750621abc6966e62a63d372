@@ -1,4 +1,4 @@
-I"B<h2 id="-professor"><i class="fas fa-microscope"></i> Professor</h2>
+I"J<h2 id="-professor"><i class="fas fa-microscope"></i> Professor</h2>
 <a href="/members/younsoo-lee.html" class="portrait" style="--width: 150px">
 <span class="portrait_image">
     <img
@@ -21,10 +21,10 @@
       src="/images/members/23bs.jpeg"
       onerror="this.src = '/images/placeholder.svg'; this.onerror = null;"
       loading="lazy"
-      alt="이보성"
+      alt="Bosung Lee"
     >
   </span><span class="portrait_name">
-      이보성
+      Bosung Lee
     </span><span class="portrait_description">
       
     </span></a>
@@ -34,23 +34,23 @@
       src="/images/members/23du.jpeg"
       onerror="this.src = '/images/placeholder.svg'; this.onerror = null;"
       loading="lazy"
-      alt="민동욱"
+      alt="Donguk Min"
     >
   </span><span class="portrait_name">
-      민동욱
+      Donguk Min
     </span><span class="portrait_description">
       
     </span></a>
-<a href="/members/minkyu.html" class="portrait" style="--width: 150px">
+<a href="/members/mingyu.html" class="portrait" style="--width: 150px">
 <span class="portrait_image">
     <img
-      src="/images/members/23mk.jpeg"
+      src="/images/members/23mg.jpeg"
       onerror="this.src = '/images/placeholder.svg'; this.onerror = null;"
       loading="lazy"
-      alt="강민규"
+      alt="Mingyu Kang"
     >
   </span><span class="portrait_name">
-      강민규
+      Mingyu Kang
     </span><span class="portrait_description">
       
     </span></a>

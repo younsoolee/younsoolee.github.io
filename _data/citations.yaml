@@ -23,7 +23,7 @@
   publisher: European Journal of Operational Research
   date: '2022-10-01'
   link: https://doi.org/grq5zn
-  #image: ./images/research_summary/ejor.png
+  image: ./images/research_summary/ejor.png
   tags:
   - lot-sizing and scheduling
   - approximate dynamic programming
@@ -37,7 +37,7 @@
   publisher: European Journal of Operational Research
   date: '2023-10-01'
   link: https://doi.org/grzdqd
-  #image: ./images/research_summary/sp.png
+  image: ./images/research_summary/sp.png
   tags:
   - lot-sizing and scheduling
   - valid inequality

@@ -1,5 +1,5 @@
 ---
-name: 이보성
+name: Bosung Lee
 image: images/members/23bs.jpeg
 description: 
 role: ug

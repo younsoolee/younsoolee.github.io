@@ -1,5 +1,5 @@
 ---
-name: 민동욱
+name: Donguk Min
 image: images/members/23du.jpeg
 description: 
 role: ug
