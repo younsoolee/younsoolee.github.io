@@ -21,6 +21,8 @@ links:
 - **Feb. 2018.** MS, Department of Industrial Engineering, Seoul National University. (Advisor: Prof. [Kyungsik Lee](http://optimize.snu.ac.kr))
 - **Feb. 2016.** BS, Department of Industrial Engineering, Seoul National University.
 
-### Teaching
-- Introduction to Optimization, TU Korea, Fall 2022
-- Operations Research, Soongsil University, Spring 2023
+### Teaching (@ SSU)
+- Operations Research, 2023S
+- Probability & Statistics 1, 2023F, 2024F
+- Supply Chain Management, 2024F
+- Operations Management, 2024S, 2025S

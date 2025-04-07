@@ -33,6 +33,17 @@ footer-dark: true
 %}
 {:.center} 
 
+
+---
+## <i class="fas fa-users"></i> Past Members
+{%
+  include list.html
+  data="members"
+  component="portrait"
+  filters="role: alum_ug"
+%}
+{:.center} 
+
 <!-- 
 ---
 ## <i class="fas fa-users"></i> Students
