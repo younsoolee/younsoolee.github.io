@@ -1,5 +1,5 @@
 ---
-name: 이혁진
+name: Hyukjin Lee
 image: images/members/25hlee.jpg
 description: 
 role: ug

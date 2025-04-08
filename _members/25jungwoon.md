@@ -1,5 +1,5 @@
 ---
-name: 조정운
+name: Jungwoon Cho
 image: images/members/25jcho.jpg
 description: 
 role: ug

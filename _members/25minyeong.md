@@ -1,5 +1,5 @@
 ---
-name: 최민영
+name: Minyeong Choi
 image: images/members/25mchoi.jpg
 description: 
 role: ug

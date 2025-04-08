@@ -1,5 +1,5 @@
 ---
-name: 손성은
+name: Seongeun Son
 image: images/members/25sson.jpg
 description: 
 role: ug
