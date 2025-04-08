@@ -1,8 +1,5 @@
 ---
 title: News
-nav:
-  order: 4
-  tooltip: News
 ---
 
 ## <i class="fas fa-feather-alt"></i>News

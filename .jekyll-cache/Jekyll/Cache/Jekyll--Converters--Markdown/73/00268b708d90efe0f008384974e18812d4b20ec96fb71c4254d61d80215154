@@ -1,4 +1,4 @@
-I"<h2 id="-professor"><i class="fas fa-microscope"></i> Professor</h2>
+I"�<h2 id="-professor"><i class="fas fa-microscope"></i> Professor</h2>
 <a href="/members/younsoo-lee.html" class="portrait" style="--width: 150px">
 <span class="portrait_image">
     <img
@@ -21,10 +21,10 @@
       src="/images/members/25hlee.jpg"
       onerror="this.src = '/images/placeholder.svg'; this.onerror = null;"
       loading="lazy"
-      alt="Hyukjin Lee"
+      alt="이혁진"
     >
   </span><span class="portrait_name">
-      Hyukjin Lee
+      이혁진
     </span><span class="portrait_description">
       
     </span></a>
@@ -34,10 +34,10 @@
       src="/images/members/25jcho.jpg"
       onerror="this.src = '/images/placeholder.svg'; this.onerror = null;"
       loading="lazy"
-      alt="Jungwoon Cho"
+      alt="조정운"
     >
   </span><span class="portrait_name">
-      Jungwoon Cho
+      조정운
     </span><span class="portrait_description">
       
     </span></a>
@@ -47,10 +47,10 @@
       src="/images/members/25mchoi.jpg"
       onerror="this.src = '/images/placeholder.svg'; this.onerror = null;"
       loading="lazy"
-      alt="Minyeong Choi"
+      alt="최민영"
     >
   </span><span class="portrait_name">
-      Minyeong Choi
+      최민영
     </span><span class="portrait_description">
       
     </span></a>
@@ -60,16 +60,20 @@
       src="/images/members/25sson.jpg"
       onerror="this.src = '/images/placeholder.svg'; this.onerror = null;"
       loading="lazy"
-      alt="Seongeun Son"
+      alt="손성은"
     >
   </span><span class="portrait_name">
-      Seongeun Son
+      손성은
     </span><span class="portrait_description">
       
     </span></a>
 
 <hr class="center" />
 <h2 id="-past-members"><i class="fas fa-users"></i> Past Members</h2>
+<ul>
+  <li>Mingyu Kang, Bosung Lee (2023.07 - 2024.12), Donguk Min (2023.07 - 2024.08)</li>
+</ul>
+
 <a href="/members/23bosung.html" class="portrait" style="--width: 150px">
 <span class="portrait_image">
     <img
@@ -110,81 +114,30 @@
       
     </span></a>
 
+<!--{:.center} -->
+
 <!-- 
 ---
 ## <i class="fas fa-users"></i> Students
 
 -->
-<!-- <!-- section break -->
-<p class="center">–&gt;</p>
+<!-- section break -->
 
-<!-- ## Funding 
--->
+<h2 id="funding">Funding</h2>
 
-<!-- Our work is made possible by funding from several organizations.
-{:.center} 
--->
-
-<!-- <div class="gallery" data-style="square" data-number="6"><a
-        href="https://nasa.gov/"
-        class="gallery_item"
-        data-tooltip="Cool Foundation"
-      >
-        <img
-          src="/images/photo.jpg"
-          loading="lazy"
-          alt=""
-        />
-      </a><a
-        href="https://nasa.gov/"
-        class="gallery_item"
-        data-tooltip="Cool Institute"
-      >
-        <img
-          src="/images/photo.jpg"
-          loading="lazy"
-          alt=""
-        />
-      </a><a
-        href="https://nasa.gov/"
-        class="gallery_item"
-        data-tooltip="Cool Initiative"
-      >
-        <img
-          src="/images/photo.jpg"
-          loading="lazy"
-          alt=""
-        />
-      </a><a
-        href="https://nasa.gov/"
-        class="gallery_item"
-        data-tooltip="Cool Foundation"
-      >
-        <img
-          src="/images/photo.jpg"
-          loading="lazy"
-          alt=""
-        />
-      </a><a
-        href="https://nasa.gov/"
-        class="gallery_item"
-        data-tooltip="Cool Institute"
-      >
-        <img
-          src="/images/photo.jpg"
-          loading="lazy"
-          alt=""
-        />
-      </a><a
-        href="https://nasa.gov/"
-        class="gallery_item"
-        data-tooltip="Cool Initiative"
-      >
-        <img
-          src="/images/photo.jpg"
-          loading="lazy"
-          alt=""
-        />
+<p class="center">Our work is made possible by funding from several organizations.</p>
+<div class="gallery" data-style="square" data-number="6"><a href="https://nasa.gov/" class="gallery_item" data-tooltip="Cool Foundation">
+        <img src="/images/photo.jpg" loading="lazy" alt="" />
+      </a><a href="https://nasa.gov/" class="gallery_item" data-tooltip="Cool Institute">
+        <img src="/images/photo.jpg" loading="lazy" alt="" />
+      </a><a href="https://nasa.gov/" class="gallery_item" data-tooltip="Cool Initiative">
+        <img src="/images/photo.jpg" loading="lazy" alt="" />
+      </a><a href="https://nasa.gov/" class="gallery_item" data-tooltip="Cool Foundation">
+        <img src="/images/photo.jpg" loading="lazy" alt="" />
+      </a><a href="https://nasa.gov/" class="gallery_item" data-tooltip="Cool Institute">
+        <img src="/images/photo.jpg" loading="lazy" alt="" />
+      </a><a href="https://nasa.gov/" class="gallery_item" data-tooltip="Cool Initiative">
+        <img src="/images/photo.jpg" loading="lazy" alt="" />
       </a></div>
-  -->
+
 :ET

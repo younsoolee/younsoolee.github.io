@@ -1,0 +1,206 @@
+I"�<h2 id="-professor"><i class="fas fa-microscope"></i> Professor</h2>
+<a href="/members/younsoo-lee.html" class="portrait" style="--width: 150px">
+<span class="portrait_image">
+    <img
+      src="/images/members/ylee.jpeg"
+      onerror="this.src = '/images/placeholder.svg'; this.onerror = null;"
+      loading="lazy"
+      alt="Younsoo Lee"
+    >
+  </span><span class="portrait_name">
+      Younsoo Lee
+    </span><span class="portrait_description">
+      
+    </span></a>
+
+<hr />
+<h2 id="-undergraduate-students"><i class="fas fa-users"></i> Undergraduate Students</h2>
+<a href="/members/25hyukjin.html" class="portrait" style="--width: 150px">
+<span class="portrait_image">
+    <img
+      src="/images/members/25hlee.jpg"
+      onerror="this.src = '/images/placeholder.svg'; this.onerror = null;"
+      loading="lazy"
+      alt="Hyukjin Lee"
+    >
+  </span><span class="portrait_name">
+      Hyukjin Lee
+    </span><span class="portrait_description">
+      
+    </span></a>
+<a href="/members/25jungwoon.html" class="portrait" style="--width: 150px">
+<span class="portrait_image">
+    <img
+      src="/images/members/25jcho.jpg"
+      onerror="this.src = '/images/placeholder.svg'; this.onerror = null;"
+      loading="lazy"
+      alt="Jungwoon Cho"
+    >
+  </span><span class="portrait_name">
+      Jungwoon Cho
+    </span><span class="portrait_description">
+      
+    </span></a>
+<a href="/members/25minyeong.html" class="portrait" style="--width: 150px">
+<span class="portrait_image">
+    <img
+      src="/images/members/25mchoi.jpg"
+      onerror="this.src = '/images/placeholder.svg'; this.onerror = null;"
+      loading="lazy"
+      alt="Minyeong Choi"
+    >
+  </span><span class="portrait_name">
+      Minyeong Choi
+    </span><span class="portrait_description">
+      
+    </span></a>
+<a href="/members/25seongeun.html" class="portrait" style="--width: 150px">
+<span class="portrait_image">
+    <img
+      src="/images/members/25sson.jpg"
+      onerror="this.src = '/images/placeholder.svg'; this.onerror = null;"
+      loading="lazy"
+      alt="Seongeun Son"
+    >
+  </span><span class="portrait_name">
+      Seongeun Son
+    </span><span class="portrait_description">
+      
+    </span></a>
+
+<hr class="center" />
+<h2 id="-past-members"><i class="fas fa-users"></i> Past Members</h2>
+<ul>
+  <li>Mingyu Kang, Bosung Lee, Donguk Min (2023.07 - 2024.12)
+{::nomarkdown}
+<a href="/members/23bosung.html" class="portrait" style="--width: 150px">
+<span class="portrait_image">
+  &lt;img
+    src=”/images/members/23bs.jpeg”
+    onerror=”this.src = ‘/images/placeholder.svg’; this.onerror = null;”
+    loading=”lazy”
+    alt=”Bosung Lee”
+</span></a>    <blockquote>
+
+      <p>&lt;/span&gt;<span class="portrait_name">
+    Bosung Lee
+  </span><span class="portrait_description"></span></p>
+    </blockquote>
+
+    <p>&lt;/span&gt;&lt;/a&gt;
+{:/}
+{::nomarkdown}
+<a href="/members/23donguk.html" class="portrait" style="--width: 150px">
+<span class="portrait_image">
+  &lt;img
+    src=”/images/members/23du.jpeg”
+    onerror=”this.src = ‘/images/placeholder.svg’; this.onerror = null;”
+    loading=”lazy”
+    alt=”Donguk Min”</span></a></p>
+    <blockquote>
+
+      <p>&lt;/span&gt;<span class="portrait_name">
+    Donguk Min
+  </span><span class="portrait_description"></span></p>
+    </blockquote>
+
+    <p>&lt;/span&gt;&lt;/a&gt;
+{:/}
+{::nomarkdown}
+<a href="/members/23mingyu.html" class="portrait" style="--width: 150px">
+<span class="portrait_image">
+  &lt;img
+    src=”/images/members/23mg.jpeg”
+    onerror=”this.src = ‘/images/placeholder.svg’; this.onerror = null;”
+    loading=”lazy”
+    alt=”Mingyu Kang”</span></a></p>
+    <blockquote>
+
+      <p>&lt;/span&gt;<span class="portrait_name">
+    Mingyu Kang
+  </span><span class="portrait_description"></span></p>
+    </blockquote>
+
+    <p>&lt;/span&gt;&lt;/a&gt;
+{:/}</p>
+  </li>
+</ul>
+
+<!-- 
+---
+## <i class="fas fa-users"></i> Students
+
+-->
+<!-- <!-- section break -->
+<p class="center">–&gt;</p>
+
+<!-- ## Funding 
+-->
+
+<!-- Our work is made possible by funding from several organizations.
+{:.center} 
+-->
+
+<!-- <div class="gallery" data-style="square" data-number="6"><a
+        href="https://nasa.gov/"
+        class="gallery_item"
+        data-tooltip="Cool Foundation"
+      >
+        <img
+          src="/images/photo.jpg"
+          loading="lazy"
+          alt=""
+        />
+      </a><a
+        href="https://nasa.gov/"
+        class="gallery_item"
+        data-tooltip="Cool Institute"
+      >
+        <img
+          src="/images/photo.jpg"
+          loading="lazy"
+          alt=""
+        />
+      </a><a
+        href="https://nasa.gov/"
+        class="gallery_item"
+        data-tooltip="Cool Initiative"
+      >
+        <img
+          src="/images/photo.jpg"
+          loading="lazy"
+          alt=""
+        />
+      </a><a
+        href="https://nasa.gov/"
+        class="gallery_item"
+        data-tooltip="Cool Foundation"
+      >
+        <img
+          src="/images/photo.jpg"
+          loading="lazy"
+          alt=""
+        />
+      </a><a
+        href="https://nasa.gov/"
+        class="gallery_item"
+        data-tooltip="Cool Institute"
+      >
+        <img
+          src="/images/photo.jpg"
+          loading="lazy"
+          alt=""
+        />
+      </a><a
+        href="https://nasa.gov/"
+        class="gallery_item"
+        data-tooltip="Cool Initiative"
+      >
+        <img
+          src="/images/photo.jpg"
+          loading="lazy"
+          alt=""
+        />
+      </a></div>
+  -->
+:ET

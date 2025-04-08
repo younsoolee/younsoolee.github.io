@@ -7,5 +7,5 @@ links:
   email: ehdwl99@naver.com
 ---
 
-- **Jul. 2023 - Aug. 2024.** Undergraduate Intern at SPS Lab
+- **Jul. 2023 - Aug. 2024.**: Undergraduate Intern at SPS Lab
 
