@@ -1,6 +1,6 @@
 ---
 name: Jungwoon Cho
-image: images/members/25jcho.jpg
+image: images/members/25jcho.jpeg
 description: 
 role: ug
 links:

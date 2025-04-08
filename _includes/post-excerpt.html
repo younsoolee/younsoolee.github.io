@@ -13,20 +13,22 @@
 <div class="post_excerpt">
   {% assign url = post.url | default: "" %}
   {% assign title = post.title | default: "" %}
-  <p>
-    <a href="{{ url | relative_url }}">{{ title }}</a>
-  </p>
+<p class="post-header">
+  <span class="post-date">{{ post.date | date: "%Y-%m" }}</span>
+  <a href="{{ url | relative_url }}">{{ title }}</a>
+</p>
 
-  {%
-    include post-info.html
-    author=post.author
-    member=post.member
-    date=post.date
-    tags=post.tags
-  %}
-
-  {% assign content = post.content | default: "" %}
-  <p>
-    {{ content | strip_html | truncate: 500 }}
-  </p>
 </div>
+<!--
+<div class="post-card">
+  <h3 class="post-title">
+    <a href="{{ url | relative_url }}">{{ title }}</a>
+  </h3>
+
+  <p class="post-date">
+    {{ post.date | date: "%Y-%m" }}
+  </p>
+
+  
+</div>
+-->

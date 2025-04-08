@@ -1,3 +1,22 @@
+@charset "UTF-8";
 * { box-sizing: border-box; }
+
+.image-grid { display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; row-gap: 20px; /* 줄 간격 */ margin-bottom: 2em; }
+
+.image-grid img { width: 30%; height: auto; border-radius: 4px; object-fit: cover; }
+
+.image-grid.landscape img { aspect-ratio: 16 / 9; object-fit: cover; }
+
+.image-grid.square img { aspect-ratio: 1 / 1; }
+
+.image-grid.portrait { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; row-gap: 20px; /* 줄 간격 */ }
+
+.image-grid.portrait img { flex: 1 1 30%; max-width: 30%; aspect-ratio: 3 / 4; object-fit: cover; border-radius: 4px; box-sizing: border-box; }
+
+.post-header { display: flex; align-items: center; gap: 1em; flex-wrap: wrap; /* 모바일에서 줄바꿈되도록 */ margin-bottom: 0.5em; }
+
+.post-title { font-weight: bold; color: #333; text-decoration: none; }
+
+.post-date { font-weight: bold; font-size: 1em; color: #333; }
 
 /*# sourceMappingURL=all.css.map */

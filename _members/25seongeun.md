@@ -1,6 +1,6 @@
 ---
 name: Seongeun Son
-image: images/members/25sson.jpg
+image: images/members/25sson.jpeg
 description: 
 role: ug
 links:

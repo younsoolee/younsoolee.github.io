@@ -1,6 +1,6 @@
 ---
 name: Minyeong Choi
-image: images/members/25mchoi.jpg
+image: images/members/25mchoi.jpeg
 description: 
 role: ug
 links:

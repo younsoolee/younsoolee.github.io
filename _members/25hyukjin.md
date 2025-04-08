@@ -1,6 +1,6 @@
 ---
 name: Hyukjin Lee
-image: images/members/25hlee.jpg
+image: images/members/25hlee.jpeg
 description: 
 role: ug
 links:

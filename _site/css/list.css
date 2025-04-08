@@ -1,4 +1,5 @@
-ul, ol { margin: 30px 0; padding-left: 10px; }
+@charset "UTF-8";
+ul, ol { margin: 5px 0; padding-left: 10px; }
 
 ul:first-child, ol:first-child { margin-top: 0; }
 
@@ -10,6 +11,10 @@ ul li:first-child, ol li:first-child { margin-top: 0; }
 
 ul li:last-child, ol li:last-child { margin-bottom: 0; }
 
-ul { list-style-type: disc; }
+ul { list-style-type: disc; /* ● 기본 스타일 */ }
+
+ul ul { list-style-type: circle; /* ○ 서브 리스트 */ }
+
+ul ul ul { list-style-type: square; /* ■ 서브의 서브 */ }
 
 /*# sourceMappingURL=list.css.map */

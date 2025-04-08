@@ -22,7 +22,8 @@ links:
 - **Feb. 2016.** BS, Department of Industrial Engineering, Seoul National University.
 
 ### Teaching (@ SSU)
-- Operations Research, 2023S
-- Probability & Statistics 1, 2023F, 2024F
-- Supply Chain Management, 2024F
-- Operations Management, 2024S, 2025S
+- Operations Research (2023S)
+- Probability & Statistics 1 (2023F, 2024F)
+- Supply Chain Management (2024F)
+- Operations Management (2024S, 2025S)
+- Capstone Design (2025S)

@@ -1,0 +1,154 @@
+I"<h2 id="-professor"><i class="fas fa-microscope"></i> Professor</h2>
+<a href="/members/younsoo-lee.html" class="portrait" style="--width: 150px">
+<span class="portrait_image">
+    <img
+      src="/images/members/ylee.jpeg"
+      onerror="this.src = '/images/placeholder.svg'; this.onerror = null;"
+      loading="lazy"
+      alt="Younsoo Lee"
+    >
+  </span><span class="portrait_name">
+      Younsoo Lee
+    </span><span class="portrait_description">
+      
+    </span></a>
+
+<hr />
+
+<!-- section break -->
+
+<h2 id="-undergraduate-students"><i class="fas fa-users"></i> Undergraduate Students</h2>
+<a href="/members/25hyukjin.html" class="portrait" style="--width: 150px">
+<span class="portrait_image">
+    <img
+      src="/images/members/25hlee.jpeg"
+      onerror="this.src = '/images/placeholder.svg'; this.onerror = null;"
+      loading="lazy"
+      alt="Hyukjin Lee"
+    >
+  </span><span class="portrait_name">
+      Hyukjin Lee
+    </span><span class="portrait_description">
+      
+    </span></a>
+<a href="/members/25jungwoon.html" class="portrait" style="--width: 150px">
+<span class="portrait_image">
+    <img
+      src="/images/members/25jcho.jpeg"
+      onerror="this.src = '/images/placeholder.svg'; this.onerror = null;"
+      loading="lazy"
+      alt="Jungwoon Cho"
+    >
+  </span><span class="portrait_name">
+      Jungwoon Cho
+    </span><span class="portrait_description">
+      
+    </span></a>
+<a href="/members/25minyeong.html" class="portrait" style="--width: 150px">
+<span class="portrait_image">
+    <img
+      src="/images/members/25mchoi.jpeg"
+      onerror="this.src = '/images/placeholder.svg'; this.onerror = null;"
+      loading="lazy"
+      alt="Minyeong Choi"
+    >
+  </span><span class="portrait_name">
+      Minyeong Choi
+    </span><span class="portrait_description">
+      
+    </span></a>
+<a href="/members/25seongeun.html" class="portrait" style="--width: 150px">
+<span class="portrait_image">
+    <img
+      src="/images/members/25sson.jpeg"
+      onerror="this.src = '/images/placeholder.svg'; this.onerror = null;"
+      loading="lazy"
+      alt="Seongeun Son"
+    >
+  </span><span class="portrait_name">
+      Seongeun Son
+    </span><span class="portrait_description">
+      
+    </span></a>
+
+<hr class="center" />
+
+<!-- section break -->
+
+<h2 id="-past-members-undergraduate-students"><i class="fas fa-users"></i> Past Members (Undergraduate Students)</h2>
+
+<ul>
+  <li>(<strong>2023.07 - 2024.12</strong>) Mingyu Kang, Bosung Lee, Donguk Min
+    <ul>
+      <li>Optimization of Electric Bus Charging and Discharging Schedules with Vehicle-to-Grid Technology, <em>The Transactions of the Korean Institute of Electrical Engineers</em>, May. 2025. (<em>In press</em>)</li>
+      <li>A Robust Optimization Approach for E-bus Charging and Discharging Scheduling with Vehicle-to-Grid Integration, <em>under review</em>.</li>
+    </ul>
+  </li>
+</ul>
+
+<!-- section break -->
+
+<!--{::nomarkdown}
+<a href="/members/23bosung.html" class="portrait" style="--width: 150px">
+<span class="portrait_image">
+    <img
+      src="/images/members/23bs.jpeg"
+      onerror="this.src = '/images/placeholder.svg'; this.onerror = null;"
+      loading="lazy"
+      alt="Bosung Lee"
+    >
+  </span><span class="portrait_name">
+      Bosung Lee
+    </span><span class="portrait_description">
+      
+    </span></a>
+{:/}
+{::nomarkdown}
+<a href="/members/23donguk.html" class="portrait" style="--width: 150px">
+<span class="portrait_image">
+    <img
+      src="/images/members/23du.jpeg"
+      onerror="this.src = '/images/placeholder.svg'; this.onerror = null;"
+      loading="lazy"
+      alt="Donguk Min"
+    >
+  </span><span class="portrait_name">
+      Donguk Min
+    </span><span class="portrait_description">
+      
+    </span></a>
+{:/}
+{::nomarkdown}
+<a href="/members/23mingyu.html" class="portrait" style="--width: 150px">
+<span class="portrait_image">
+    <img
+      src="/images/members/23mg.jpeg"
+      onerror="this.src = '/images/placeholder.svg'; this.onerror = null;"
+      loading="lazy"
+      alt="Mingyu Kang"
+    >
+  </span><span class="portrait_name">
+      Mingyu Kang
+    </span><span class="portrait_description">
+      
+    </span></a>
+{:/}
+
+{:.center} -->
+
+<!-- 
+---
+## <i class="fas fa-users"></i> Students
+
+-->
+<!--
+<!-- section break -->
+
+<h2 id="funding">Funding</h2>
+
+<p class="center">Our work is made possible by funding from several organizations.</p>
+<div class="gallery" data-style="square" data-number="1"><a href="https://nasa.gov/" class="gallery_item" data-tooltip="Cool Foundation">
+        <img src="/images/members/felix.jpg" loading="lazy" alt="" />
+      </a></div>
+<p>–&gt;</p>
+:ET
