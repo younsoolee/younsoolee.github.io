@@ -1,0 +1,40 @@
+I"<h2 id="smart-production-systems-lab--soongsil-university">Smart Production Systems Lab @ Soongsil University</h2>
+
+<p class="center">숭실대학교 산업·정보시스템공학과 스마트 생산시스템 연구실 홈페이지에 오신 것을 환영합니다.<br />
+본 연구실에서는 생산시스템을 비롯하여 제조, 물류, 에너지, 서비스 등 다양한 산업시스템에서 발생하는 의사결정 문제를 최적화 및 애널리틱스 기법을 활용하여 해결하고 가치를 창출하기 위한 연구를 수행하고 있습니다.</p>
+
+<!-- section break -->
+
+<h2 id="research-area">Research Area</h2>
+
+<ul>
+  <li>
+    <p>생산시스템의 효율성 향상 위한 생산계획 및 스케줄링 최적화</p>
+  </li>
+  <li>
+    <p>제조, 물류, 에너지, 서비스 등 다양한 산업시스템에서 발생하는 문제를 해결하는 일체의 과정</p>
+  </li>
+  <li>이를 위해 필요한 최적화 이론 탐구 및 방법론 개발</li>
+  <li>불확실성 하에서의 순차적 의사결정 기법 및 적용</li>
+</ul>
+
+<p class="center"><a class="link" href="/research" data-icon="true" data-text="true" data-flip="true" data-style=""><i class="fas fa-arrow-right fa-lg "></i><span>More on our research</span></a></p>
+
+<!-- section break -->
+
+<h2 id="notice">NOTICE</h2>
+
+<p class="center">스마트 생산시스템 연구실에서 학부연구생 및 대학원생을 모집하고 있습니다.<br />
+연구 참여 및 대학원 진학에 관심있는 학생은 <em>younsoo.lee@ssu.ac.kr</em>로 연락바랍니다.</p>
+<p class="center"><a class="link" href="mailto:younsoo.lee@ssu.ac.kr" data-icon="true" data-text="true" data-style="button"><i class="fas fa-envelope fa-lg "></i><span>younsoo.lee@ssu.ac.kr</span></a></p>
+<!-- section break -->
+<!-- section full -->
+
+<img
+  class="banner"
+  src="/images/banner_ssu.jpg"
+  loading="lazy"
+  alt="Banner image"
+/>
+
+:ET
