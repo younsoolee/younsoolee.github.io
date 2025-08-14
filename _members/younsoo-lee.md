@@ -23,7 +23,7 @@ links:
 
 ### Teaching (@ SSU)
 - Operations Research (2023S)
-- Probability & Statistics 1 (2023F, 2024F)
-- Supply Chain Management (2024F)
+- Probability & Statistics 1 (2023F, 2024F, 2025F)
+- Supply Chain Management (2024F, 2025F)
 - Operations Management (2024S, 2025S)
 - Capstone Design (2025S)
