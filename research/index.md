@@ -43,8 +43,8 @@ nav:
  {% include list.html data="citations" component="citation" style="rich" %}
  -->
 
-1. Youngchul Shin, **Younsoo Lee<sup>\*</sup>**, Two-stage Robust Optimization Approach for Integrated Supply Chain Planning with Hybrid-dark Stores, _Omega_, 103479, accepted. ([on-line link](https://doi.org/10.1016/j.omega.2025.103479)) 
-2. Seyoung Oh, Jinyeong Jeong, **Younsoo Lee<sup>\*</sup>**, Kyungsik Lee<sup>\*</sup>, A Branch-and-Price Algorithm for the Parallel-line Lot-sizing and Scheduling Problem in Flat-panel Display Manufacturing Process, _Omega_, 138, 103386, Jan. 2026. ([on-line link](https://doi.org/10.1016/j.omega.2025.103386))
+1. Youngchul Shin, **Younsoo Lee<sup>\*</sup>**, Two-stage Robust Optimization Approach for Integrated Supply Chain Planning with Hybrid-dark Stores, _Omega_ 140, 103479, Apr. 2026. ([on-line link](https://doi.org/10.1016/j.omega.2025.103479)) 
+2. Seyoung Oh, Jinyeong Jeong, **Younsoo Lee<sup>\*</sup>**, Kyungsik Lee<sup>\*</sup>, A Branch-and-Price Algorithm for the Parallel-line Lot-sizing and Scheduling Problem in Flat-panel Display Manufacturing Process, _Omega_ 138, 103386, Jan. 2026. ([on-line link](https://doi.org/10.1016/j.omega.2025.103386))
 3. Sungwon Hong, **Younsoo Lee<sup>\*</sup>**, Kyungsik Lee<sup>\*</sup>, An Approximate Dynamic Programming Approach to Wafer-Lot Scheduling for Parallel Multi-Chamber Equipment in Semiconductor Fabrication Lines, _International Journal of Production Research_ 38(2), 1-26, Nov. 2025. ([on-line link](https://doi.org/10.1080/00207543.2025.2584726))
 4. Sungwon Hong, Jongyoon Park, **Younsoo Lee<sup>\*</sup>**, A Robust Optimization Approach for the Multi-Period Strip Cutting Problem with Multi-Cutter Slitting Machines, _Applied Sciences_ 15(19), 10387, 2025. ([on-line link](https://doi.org/10.3390/app151910387))
 5. Mingyu Kang, Bosung Lee, **Younsoo Lee<sup>\*</sup>**, A Robust Optimization Approach for E-bus Charging and Discharging Scheduling with Vehicle-to-Grid Integration, _Mathematics_ 13(9), 1380, May. 2025. ([on-line link](https://doi.org/10.3390/math13091380))
