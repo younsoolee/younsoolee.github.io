@@ -3,7 +3,14 @@
 
 .image-grid { display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; row-gap: 20px; /* 줄 간격 */ margin-bottom: 2em; }
 
-.image-grid img { width: 30%; height: auto; border-radius: 4px; object-fit: cover; }
+/* 기본 */
+.image-grid img { width: 30%; height: auto; object-fit: cover; /* 원본 비율 유지 */ }
+
+/* 태블릿 */
+@media (max-width: 900px) { .image-grid img { width: 45%; } }
+
+/* 모바일 */
+@media (max-width: 600px) { .image-grid img { width: 100%; } .image-grid.portrait img { flex: 1 1 100%; max-width: 100%; } }
 
 .image-grid.landscape img { aspect-ratio: 16 / 9; object-fit: cover; }
 
