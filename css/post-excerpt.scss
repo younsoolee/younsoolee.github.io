@@ -15,5 +15,54 @@
 
   & > div {
     justify-content: flex-start;
+    /* ✅ 여기부터 추가 */
+    display: flex;
+    align-items: baseline;
+    gap: 1em;
+    flex-wrap: nowrap; /* 제목이 통째로 다음 줄로 내려가지 않게 */
+  }
+
+  .post-date {
+    flex: 0 0 auto;
+    white-space: nowrap;
+  }
+
+  .post-title {
+    flex: 1 1 auto;
+    min-width: 0; /* ⭐ 핵심: flex item이 줄어들 수 있어야 줄바꿈 됨 */
+  }
+
+  .post-title,
+  .post-title a {
+    white-space: normal;
+    overflow-wrap: anywhere;
+    word-break: break-word;
+  }
+
+  .post-title a {
+    display: inline; /* 링크가 inline-block으로 잡힌 경우 대비 */
+  }
+
+  .post-header {
+    display: flex;
+    align-items: baseline;
+    gap: 1em;
+    justify-content: flex-start;
+    flex-wrap: nowrap; /* 날짜+제목은 같은 줄에서 시작 */
+    margin: 0; /* p 기본 margin 제거(선택) */
+  }
+
+  .post-date {
+    flex: 0 0 auto;
+    white-space: nowrap;
+  }
+
+  /* 제목 링크가 남은 공간을 먹고, 내부에서 줄바꿈 */
+  .post-header > a {
+    flex: 1 1 auto;
+    min-width: 0; /* ⭐ 핵심 */
+    white-space: normal;
+    overflow-wrap: anywhere;
+    word-break: break-word;
   }
 }
