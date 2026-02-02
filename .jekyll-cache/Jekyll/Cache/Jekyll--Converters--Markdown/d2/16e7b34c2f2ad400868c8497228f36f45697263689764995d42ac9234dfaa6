@@ -1,4 +1,4 @@
-I"<h2 id="-professor"><i class="fas fa-microscope"></i> Professor</h2>
+I"(<h2 id="-professor"><i class="fas fa-microscope"></i> Professor</h2>
 
 <a href="/members/younsoo-lee.html" class="portrait" style="--width: 150px">
 <span class="portrait_image">
@@ -20,32 +20,6 @@
 
 <h2 id="-current-members"><i class="fas fa-users"></i> Current Members</h2>
 
-<a href="/members/25hyukjin.html" class="portrait" style="--width: 150px">
-<span class="portrait_image">
-    <img
-      src="/images/members/25hlee.jpeg"
-      onerror="this.src = '/images/placeholder.svg'; this.onerror = null;"
-      loading="lazy"
-      alt="Hyukjin Lee"
-    >
-  </span><span class="portrait_name">
-      Hyukjin Lee
-    </span><span class="portrait_description">
-      
-    </span></a>
-<a href="/members/25jungwoon.html" class="portrait" style="--width: 150px">
-<span class="portrait_image">
-    <img
-      src="/images/members/25jcho.jpeg"
-      onerror="this.src = '/images/placeholder.svg'; this.onerror = null;"
-      loading="lazy"
-      alt="Jungwoon Cho"
-    >
-  </span><span class="portrait_name">
-      Jungwoon Cho
-    </span><span class="portrait_description">
-      
-    </span></a>
 <a href="/members/25minyeong.html" class="portrait" style="--width: 150px">
 <span class="portrait_image">
     <img
@@ -72,6 +46,32 @@
     </span><span class="portrait_description">
       
     </span></a>
+<a href="/members/hyukjin_lee.html" class="portrait" style="--width: 150px">
+<span class="portrait_image">
+    <img
+      src="/images/members/25hlee.jpeg"
+      onerror="this.src = '/images/placeholder.svg'; this.onerror = null;"
+      loading="lazy"
+      alt="Hyukjin Lee"
+    >
+  </span><span class="portrait_name">
+      Hyukjin Lee
+    </span><span class="portrait_description">
+      
+    </span></a>
+<a href="/members/jungwoon_cho.html" class="portrait" style="--width: 150px">
+<span class="portrait_image">
+    <img
+      src="/images/members/25jcho.jpeg"
+      onerror="this.src = '/images/placeholder.svg'; this.onerror = null;"
+      loading="lazy"
+      alt="Jungwoon Cho"
+    >
+  </span><span class="portrait_name">
+      Jungwoon Cho
+    </span><span class="portrait_description">
+      
+    </span></a>
 
 <hr class="center" />
 
@@ -90,7 +90,7 @@
 </ul>
 
 <!--{::nomarkdown}
-<a href="/members/23bosung.html" class="portrait" style="--width: 150px">
+<a href="/members/bosung_lee.html" class="portrait" style="--width: 150px">
 <span class="portrait_image">
     <img
       src="/images/members/23bs.jpeg"
@@ -105,7 +105,7 @@
     </span></a>
 {:/}
 {::nomarkdown}
-<a href="/members/23donguk.html" class="portrait" style="--width: 150px">
+<a href="/members/donguk_min.html" class="portrait" style="--width: 150px">
 <span class="portrait_image">
     <img
       src="/images/members/23du.jpeg"
@@ -120,7 +120,7 @@
     </span></a>
 {:/}
 {::nomarkdown}
-<a href="/members/23mingyu.html" class="portrait" style="--width: 150px">
+<a href="/members/mingyu_kang.html" class="portrait" style="--width: 150px">
 <span class="portrait_image">
     <img
       src="/images/members/23mg.jpeg"
