@@ -11,6 +11,19 @@ links:
   #orcid, twitter
 ---
 
+
+### Research Interests
+- **Theory and Methodologies of Integer Optimization**
+  - Polyhedral theory, Cutting plane theory, Branch-and-cut, Branch-and-price, Benders decomposition
+- **Decision Making under Uncertainty using Optimization Methodologies**
+  - Robust optimization, Stochastic programming, Approximate dynamic programming, Reinforcement learning
+      
+- **Their Application to Various Industrial Problems**
+  - Operation of smart production systems (smart factory, smart grid)
+  - Production planning, scheduling, and supply chain management
+  - Support intelligent decision making in various manufacturing environments
+    
+
 ### Work Experience 
 - **Mar. 2023 - Present.** Assistant Professor, Department of Industrial and Information Systems Engineering, Soongsil University.
 - **Sep. 2022 - Feb. 2023.** Research Professor, Department of Energy and Electrical Engineering, Tech University of Korea.
