@@ -2,7 +2,7 @@
 name: Seongeun Son
 image: images/members/25sson.jpeg
 description: 
-role: ug
+role: alum_ug
 links:
   email: 20201336@soongsil.ac.kr
 ---

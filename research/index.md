@@ -23,12 +23,12 @@ nav:
 
 ## <i class="fas fa-book"></i> Works in Progress
 
-1. Self-Adaptive Prompt Engineering for Cost-Efficient Language Models: Switching between Chain-of-Thought and Direct Answer, _under review_.
-2. Structure-Preserving Process Case Embeddings via Directed Graph Convolutional Networks, _under review_.
-3. A Robust Optimization Approach for Multi-Pack Battery Scheduling under Efficiency and State-of-Charge Uncertainty.
-4. Optimization of Electric Vehicle Charging Schedules with Mobile Charging Robots.
-5. Optimization of Electric Vehicle Battery Swapping Station Operations with State-of-Health Considerations.
-6. Stochastic Programming Approach to Supply Chain Model with Third-Party Return Management System.
+1. Self-Adaptive Prompt Engineering for Cost-Efficient Language Models: Switching between Chain-of-Thought and Direct Answer, _accepted_.
+2. Structure-Preserving Process Case Embeddings via Directed Graph Convolutional Networks, _accepted_.
+3. Closed-Loop Supply Chain Model with Third-Party Logistics–Based Return Management System: A Two-stage Stochastic Programming Approach, _under review_.
+4. A Robust Optimization Approach for Multi-Pack Battery Scheduling under Efficiency and State-of-Charge Uncertainty.
+5. Optimization of Electric Vehicle Charging Schedules with Mobile Charging Robots.
+6. Optimization of Electric Vehicle Battery Swapping Station Operations with State-of-Health Considerations.
 
 
 <!--4. "Reinforcement Learning Approach for Dynamic Non-shareable Resource Allocation Problem under Order Uncertainty. with Seyoung Oh, In-Beom Park, Jongyoon Park, Kyungsik Lee.-->

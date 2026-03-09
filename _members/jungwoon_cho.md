@@ -2,7 +2,7 @@
 name: Jungwoon Cho
 image: images/members/25jcho.jpeg
 description: 
-role: ug
+role: alum_ug
 links:
   email: jungwoon2138@soongsil.ac.kr
 ---

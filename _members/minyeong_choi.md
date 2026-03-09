@@ -2,7 +2,7 @@
 name: Minyeong Choi
 image: images/members/25mchoi.jpeg
 description: 
-role: ug
+role: alum_ug
 links:
   email: tksdid07099@soongsil.ac.kr
 ---
