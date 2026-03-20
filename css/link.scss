@@ -73,3 +73,17 @@ a:hover {
     }
   }
 }
+
+// 버튼 쌍을 같은 너비로 맞출 때 사용하는 wrapper
+.button-row {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  .link[data-style="button"] {
+    flex: 1;
+    max-width: 220px;
+    justify-content: center;
+    white-space: nowrap;
+  }
+}

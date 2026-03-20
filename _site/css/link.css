@@ -14,4 +14,8 @@ a:hover { color: currentColor; }
 
 .link[data-style="button"]:hover { background: #757575; box-shadow: 0 4px 14px rgba(0, 0, 0, 0.18); transform: translateY(-1px); }
 
+.button-row { display: flex; justify-content: center; flex-wrap: wrap; }
+
+.button-row .link[data-style="button"] { flex: 1; max-width: 220px; justify-content: center; white-space: nowrap; }
+
 /*# sourceMappingURL=link.css.map */

@@ -1,0 +1,10 @@
+I".
+<h3 id="정수-최적화-이론-및-알고리즘">정수 최적화 이론 및 알고리즘</h3>
+
+<p><strong>Integer Optimization Theory and Algorithms</strong></p>
+
+<p>현실의 다양한 의사결정 문제는 설비 선택, 작업 순서 결정, 자원 배분과 같은 이산적인(discrete) 선택을 포함하며, 이러한 문제는 정수최적화 모형으로 표현 가능합니다. 본 연구실은 복잡한 의사결정 문제를 효과적으로 해결하기 위한 정수최적화 이론과 알고리즘을 연구합니다. 이론적으로는 <strong>polyhedral analysis, valid inequalities, extended formulations</strong> 등을 통해 문제의 구조를 깊이 있게 이해하고, 이를 바탕으로 보다 강한 최적화 모형을 설계하는 데 관심이 있습니다. 또한 <strong>cutting planes, branch-and-cut, branch-and-price, Benders decomposition</strong> 등의 알고리즘을 활용하여 대규모 최적화 문제를 효과적으로 해결하는 방법을 다룹니다. 이를 통해 수리적으로 엄밀하면서도 실제 산업 문제에 적용 가능한 최적화 방법론을 개발하는 것을 목표로 합니다.</p>
+
+<!-- Many real-world decision-making problems involve discrete choices, such as selecting facilities, determining processing sequences, and allocating limited resources. These problems can often be formulated as integer optimization models. Our research focuses on the theory and algorithms needed to solve such complex decision problems effectively. On the theoretical side, we are interested in polyhedral analysis, valid inequalities, and extended formulations, with the goal of gaining deeper structural insights and developing stronger optimization models. On the algorithmic side, we study approaches such as cutting planes, branch-and-cut, branch-and-price, and Benders decomposition for solving large-scale optimization problems efficiently. Through this line of research, we aim to develop optimization methodologies that are both mathematically rigorous and practically relevant to real industrial applications.-->
+
+:ET

@@ -19,6 +19,7 @@ nav:
 
 <p style="text-align: center; color: #6b7280; font-size: 0.95rem; margin: 0.2rem 0 0.8rem;">Interested in our projects and papers? Jump directly to the pages below.</p>
 
+<div class="button-row">
 {%
   include link.html
   type="link"
@@ -35,7 +36,7 @@ nav:
   link="/projects/"
   style="button"
 %}
-{:.center}
+</div>
 
 {% include section.html %}
 
@@ -95,8 +96,8 @@ nav:
 <div class="category-divider">
   <i class="fas fa-rocket"></i>
   <div>
-    <div class="category-en">Application Area</div>
-    <div class="category-ko">응용 분야</div>
+    <div class="category-en">Application</div>
+    <div class="category-ko">응용</div>
   </div>
 </div>
 
@@ -164,6 +165,7 @@ nav:
 출판 논문 목록과 수행 프로젝트를 확인해보세요.
 {:.center}
 
+<div class="button-row">
 {%
   include link.html
   type="link"
@@ -180,7 +182,7 @@ nav:
   link="/projects/"
   style="button"
 %}
-{:.center}
+</div>
 
 {% include section.html %}
 

@@ -1,0 +1,10 @@
+I"e
+<h3 id="불확실성-하에서의-순차적-의사결정">불확실성 하에서의 순차적 의사결정</h3>
+
+<p><strong>Sequential Decision-Making under Uncertainty</strong></p>
+
+<p>현실의 많은 산업 문제에서는 수요, 처리시간, 시스템 상태, 외부 환경과 같은 요소들이 불확실하며, 의사결정 또한 시간의 흐름에 따라 순차적으로 이루어집니다. 본 연구실은 이러한 복잡한 의사결정 문제를 효과적으로 해결하기 위한 방법론을 연구합니다. 먼저 <strong>stochastic programming</strong>과 <strong>robust optimization</strong> 방법론을 중심으로 다양한 형태의 불확실성을 수리모형에 반영하고, 이에 대응할 수 있는 해법을 개발하는 데 관심이 있습니다. 또한 <strong>approximate dynamic programming</strong>과 <strong>reinforcement learning</strong>을 활용하여, 시간에 따라 시스템 상태가 변화하는 환경에서 현재의 선택이 미래에 미치는 영향을 고려하는 고차원의 순차적 의사결정 문제를 연구합니다.</p>
+
+<!-- Many real-world industrial problems involve uncertainty in factors such as demand, processing times, system conditions, and external environments, while decisions must often be made sequentially over time. Our research focuses on methodologies for addressing these complex decision-making problems effectively. In particular, we are interested in stochastic programming and robust optimization as frameworks for incorporating various forms of uncertainty into optimization models and developing solution approaches that can address them. We also study high-dimensional sequential decision-making problems using approximate dynamic programming and reinforcement learning, with an emphasis on settings where system states evolve over time and current decisions influence future outcomes.-->
+
+:ET
