@@ -18,11 +18,6 @@ footer-dark: true
   filters="role: prof"
 %}
 
-
-
-
-
-
 {% include section.html %}
 
 ## <i class="fas fa-users"></i> Graduate students
@@ -46,19 +41,15 @@ footer-dark: true
 %}
 {:.center}
 
-
 {% include section.html %}
 
 ## <i class="fas fa-users"></i> Past Members (Undergraduate Students)
 
 - (**2023.07 - 2024.12**) 강민규, 이보성, 민동욱
-  - Optimization of Electric Bus Charging and Discharging Schedules with Vehicle-to-Grid Technology, _The Transactions of the Korean Institute of Electrical Engineers_ 74(5), 761-774, May. 2025.
-  - A Robust Optimization Approach for E-bus Charging and Discharging Scheduling with Vehicle-to-Grid Integration, _Mathematics_ 13(9), 1380, May. 2025.
 - (**2025.01 - 2025.12**) 이혁진, 최민영, 조정운, 손성은
-  
-    {% include section.html %}
 
-  
+  {% include section.html %}
+
 <!--{%
   include list.html
   data="members"

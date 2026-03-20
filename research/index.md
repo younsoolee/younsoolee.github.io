@@ -2,103 +2,205 @@
 title: Research
 nav:
   order: 1
-  tooltip: Research
+  tooltip: 연구 분야
 ---
 
-## <i class="fas fa-microscope"></i> Research Interests
+# <i class="fas fa-lightbulb"></i> Research Overview
 
-- 경영과학 방법론을 적용하여 생산, 물류, 에너지, 서비스 등 다양한 산업에서 발생하는 문제를 해결하는 일체의 과정
-  - 스마트 생산시스템(Smart Production Systems) 구축, 생산계획 수립 및 스케줄링
-  - 전기자동차 충전소의 설계 및 운영 최적화
-  - 자동화된 물류 창고 (Robotic Mobile Fulfillment Systems)의 운영 최적화
-- 경영과학 및 최적화 이론 및 해법
-  - Theory: Polyhedral Analysis, Valid Inequalities, Extended Formulation
-  - Algorithm: Cutting plane, Branch-and-Cut, Branch-and-Price, Benders Decomposition
-- 불확실성 하에서의 순차적 의사결정 기법
-  - Approximate Dynamic Programming
-  - Stochastic Programming, Robust Optimization, & Distributionally Robust Optimization
-  - Reinforcement Learning, Optimization-Simulation Methods
+## 연구 소개
 
-{% include section.html %}
+본 연구실은 복잡한 산업 시스템에서 발생하는 설계, 계획, 운영상의 의사결정 문제를 해결하기 위한 최적화 기법을 연구합니다. 특히 정수최적화와 불확실성 하에서의 순차적 의사결정 방법론을 중심으로, 스마트 생산 시스템, 에너지 시스템, 공급망 관리 분야의 문제를 다루고 있습니다. 구체적인 연구 내용은 아래와 같습니다.
 
-## <i class="fas fa-book"></i> Works in Progress
+<div style="margin: 30px 0; text-align: center;">
+  <img src="/images/research_summary/overview2.png"
+       alt="Research Framework Overview"
+       style="max-width: 100%; width: 860px; " />
+</div>
 
-1. Self-Adaptive Prompt Engineering for Cost-Efficient Language Models: Switching between Chain-of-Thought and Direct Answer, _accepted_.
-2. Structure-Preserving Process Case Embeddings via Directed Graph Convolutional Networks, _accepted_.
-3. Closed-Loop Supply Chain Model with Third-Party Logistics–Based Return Management System: A Two-stage Stochastic Programming Approach, _under review_.
-4. A Robust Optimization Approach for Multi-Pack Battery Scheduling under Efficiency and State-of-Charge Uncertainty.
-5. Optimization of Electric Vehicle Charging Schedules with Mobile Charging Robots.
-6. Optimization of Electric Vehicle Battery Swapping Station Operations with State-of-Health Considerations.
+<p style="text-align: center; color: #6b7280; font-size: 0.95rem; margin: 0.2rem 0 0.8rem;">Interested in our projects and papers? Jump directly to the pages below.</p>
 
-
-<!--4. "Reinforcement Learning Approach for Dynamic Non-shareable Resource Allocation Problem under Order Uncertainty. with Seyoung Oh, In-Beom Park, Jongyoon Park, Kyungsik Lee.-->
-
-{% include section.html %}
-
-## <i class="fas fa-book"></i> Publications (International)
-
-<!-- {% include search-box.html %} -->
-<!-- {% include search-info.html %}
-
- {% include list.html data="citations" component="citation" style="rich" %}
- -->
-
-1. Youngchul Shin, **Younsoo Lee<sup>\*</sup>**, Two-stage Robust Optimization Approach for Integrated Supply Chain Planning with Hybrid-dark Stores, _Omega_ 140, 103479, Apr. 2026. ([on-line link](https://doi.org/10.1016/j.omega.2025.103479)) 
-2. Seyoung Oh, Jinyeong Jeong, **Younsoo Lee<sup>\*</sup>**, Kyungsik Lee<sup>\*</sup>, A Branch-and-Price Algorithm for the Parallel-line Lot-sizing and Scheduling Problem in Flat-panel Display Manufacturing Process, _Omega_ 138, 103386, Jan. 2026. ([on-line link](https://doi.org/10.1016/j.omega.2025.103386))
-3. Sungwon Hong, **Younsoo Lee<sup>\*</sup>**, Kyungsik Lee<sup>\*</sup>, An Approximate Dynamic Programming Approach to Wafer-Lot Scheduling for Parallel Multi-Chamber Equipment in Semiconductor Fabrication Lines, _International Journal of Production Research_ 38(2), 1-26, Nov. 2025. ([on-line link](https://doi.org/10.1080/00207543.2025.2584726))
-4. Sungwon Hong, Jongyoon Park, **Younsoo Lee<sup>\*</sup>**, A Robust Optimization Approach for the Multi-Period Strip Cutting Problem with Multi-Cutter Slitting Machines, _Applied Sciences_ 15(19), 10387, 2025. ([on-line link](https://doi.org/10.3390/app151910387))
-5. Mingyu Kang, Bosung Lee, **Younsoo Lee<sup>\*</sup>**, A Robust Optimization Approach for E-bus Charging and Discharging Scheduling with Vehicle-to-Grid Integration, _Mathematics_ 13(9), 1380, May. 2025. ([on-line link](https://doi.org/10.3390/math13091380))
-6. Sungwon Hong, **Younsoo Lee<sup>\*</sup>**, Kyungsik Lee<sup>\*</sup>, Capacity Estimation for Semiconductor Wafer Fabrication Facilities via an Optimization Model based on Flexible Lead Times, _IEEE Transactions on Semicnductor Manufacturing_ 38(2), 292-310, May. 2025. ([on-line link](https://doi.org/10.1109/TSM.2025.3547026))
-7. **Younsoo Lee**, Kyungsik Lee<sup>\*</sup>, Valid Inequalities and Extended Formulations for Lot-sizing and Scheduling Problem with Sequence-dependent Setups, _European Journal of Operational Research_ 310(1), 201-216, Oct. 2023. ([on-line link](https://doi.org/10.1016/j.ejor.2023.03.003))
-8. **Younsoo Lee**, Kyungsik Lee<sup>\*</sup>, New Integer Optimization Models and an Approximate Dynamic Programming Algorithm for the Lot-sizing and Scheduling Problem with Sequence-dependent Setups, _European Journal of Operational Research_ 302(1), 230-243, Oct. 2022. ([on-line link](https://doi.org/10.1016/j.ejor.2021.12.032))
-9. **Younsoo Lee**, Kyungsik Lee<sup>\*</sup>, Lot-sizing and Scheduling in Flat-Panel Display Manufacturing Process, _Omega_ 93, 102036, Jun. 2020. ([on-line link](https://doi.org/10.1016/j.omega.2019.02.005))
+{%
+  include link.html
+  type="link"
+  icon="fas fa-book-open"
+  text="View Publications"
+  link="/pubs/"
+  style="button"
+%}
+{%
+  include link.html
+  type="link"
+  icon="fas fa-folder-open"
+  text="View Projects"
+  link="/projects/"
+  style="button"
+%}
+{:.center}
 
 {% include section.html %}
 
-## <i class="fas fa-book"></i> Publications (Domestic)
+---
 
-<!-- {% include search-box.html %} -->
-<!-- {% include search-info.html %}
-
- {% include list.html data="citations" component="citation" style="rich" %}
- -->
-
-1. Mingyu Kang, Donguk Min, Bosung Lee, **Younsoo Lee<sup>\*</sup>**, Optimization of Electric Bus Charging and Discharging Schedules with Vehicle-to-Grid Technology, _The Transactions of the Korean Institute of Electrical Engineers_ 74(5), 761-774, May. 2025.
-
-{% include section.html %}
-
-## <i class="fas fa-comments"></i> International Conferences
-
-1. Sungwon Hong, Younsoo Lee, Kyungsik Lee, "An Optimization Model and Approximate Dynamic Programming Algorithms for a Wafer-Lot Scheduling Problem in Parallel Multi-Chamber Equipment" in EURO 2025, Leeds, UK, June 2025. 
-2. Younsoo Lee, Kyungsik Lee, "Valid Inequalities and Extended Formulations for Single-period Relaxation of Lot-sizing and Scheduling Problem" in EURO 2022, Espoo, Finland, Jul. 2022.
-3. Sungwon Hong, Younsoo Lee, Kyungsik Lee, "An Optimization Model based on Flexible Lead Times for Semiconductor Wafer Fabrication" in EURO 2022, Espoo, Finland, Jul. 2022.
-4. Younsoo Lee, Kyungsik Lee, "New Integer Optimization Models and Approximate Dynamic Programming Algorithm for the Lot-sizing and Scheduling Problem with Sequence-dependent Setups" in IFORS 2021, Seoul (virtual), South Korea, Aug. 2021.
-5. Younsoo Lee, Kyungsik Lee, "On the Discrete Lot-sizing and Scheduling Problem with Sequence-dependent Setup" in ISMP 2018, Bordeaux, France, Jul. 2018.
+<div class="category-divider">
+  <i class="fas fa-cogs"></i>
+  <div>
+    <div class="category-en">Methodology</div>
+    <div class="category-ko">방법론</div>
+  </div>
+</div>
 
 {% include section.html %}
 
-## <i class="fas fa-comments"></i> Domestic Conferences
+{% capture text %}
 
-1. Sungwon Hong, Younsoo Lee, Kyungsik Lee, "An Optimization Model based on Flexible Lead Times for Semiconductor Wafer Fabrication" in KIIE 2022, Jeju, South Korea, Jun. 2022.
-2. Jinyeong Jeong, Younsoo Lee, Kyungsik Lee, "A Decomposition Approach for the Parallel Line Lot-sizing and Scheduling Problem with Sequence-dependent Setup and Item Family" in KIIE 2021, Seoul, South Korea, Nov. 2021.
-3. Younsoo Lee, Kyungsik Lee, "New Integer Optimization Models and Approximate Dynamic Programming Algorithm for the Lot-sizing and Scheduling Problem with Sequence-dependent Setups" in KIIE 2020, Seoul, South Korea, Nov. 2020.
-4. Younsoo Lee, Kyungsik Lee, "An Extended Formulation Approach for the Lot-sizing and Scheduling Problem with Sequence-dependent Setups and Production Run Limit" in KIIE 2018, Seoul, South Korea, Nov. 2018.
-5. Younsoo Lee, Kyungsik Lee, "On the Discrete Lot-sizing and Scheduling Problem with Sequence-dependent Setup" in KORMS 2017, Seoul, South Korea, Nov. 2017.
+### 정수 최적화 이론 및 알고리즘
+
+**Integer Optimization Theory and Algorithms**
+
+현실의 다양한 의사결정 문제는 설비 선택, 작업 순서 결정, 자원 배분과 같은 이산적인(discrete) 선택을 포함하며, 이러한 문제는 정수최적화 모형으로 표현 가능합니다. 본 연구실은 복잡한 의사결정 문제를 효과적으로 해결하기 위한 정수최적화 이론과 알고리즘을 연구합니다. 이론적으로는 **polyhedral analysis, valid inequalities, extended formulations** 등을 통해 문제의 구조를 깊이 있게 이해하고, 이를 바탕으로 보다 강한 최적화 모형을 설계하는 데 관심이 있습니다. 또한 **cutting planes, branch-and-cut, branch-and-price, Benders decomposition** 등의 알고리즘을 활용하여 대규모 최적화 문제를 효과적으로 해결하는 방법을 다룹니다. 이를 통해 수리적으로 엄밀하면서도 실제 산업 문제에 적용 가능한 최적화 방법론을 개발하는 것을 목표로 합니다.
+
+<!-- Many real-world decision-making problems involve discrete choices, such as selecting facilities, determining processing sequences, and allocating limited resources. These problems can often be formulated as integer optimization models. Our research focuses on the theory and algorithms needed to solve such complex decision problems effectively. On the theoretical side, we are interested in polyhedral analysis, valid inequalities, and extended formulations, with the goal of gaining deeper structural insights and developing stronger optimization models. On the algorithmic side, we study approaches such as cutting planes, branch-and-cut, branch-and-price, and Benders decomposition for solving large-scale optimization problems efficiently. Through this line of research, we aim to develop optimization methodologies that are both mathematically rigorous and practically relevant to real industrial applications.-->
+
+{% endcapture %}
+
+{%
+  include feature.html
+  image="images/research_summary/ip.png"
+  text=text
+%}
 
 {% include section.html %}
 
-## <i class="fas fa-microscope"></i> Research Projects (@ Soongsil University)
+{% capture text %}
 
-- 순환 경제를 위한 다중-계층 폐쇄형 공급망 기반 스마트 반품 관리 시스템 개발
-  - Co-PI, 정석물류학술재단 학술연구지원사업 (2025.01 - 2025.12)
-- 스마트 충전 기술 도입에 따른 전기차 충전소 운영 최적화 기법
-  - PI, 숭실대학교 (2023.05 - 2024.04)
+### 불확실성 하에서의 순차적 의사결정
 
-## <i class="fas fa-microscope"></i> Industrial Projects (@ Seoul National University)
+**Sequential Decision-Making under Uncertainty**
 
-- Optimization Algorithms for Display Panel LoG Design
-  - Participant, LG Display (2021.03 - 2021.09)
-- Development of Optimization Models for Capacity Modeling in Semiconductor Wafer Fabrication Lines
-  - Participant, Samsung Electronics, (2021.02 - 2021.11)
-- Production Scheduling Algorithm considering Sequence-dependent Setups and Multiple Production Strategies
-  - Participant, LG Display (2017.02 - 2017.04, 2018.02 - 2018.04)
+현실의 많은 산업 문제에서는 수요, 처리시간, 시스템 상태, 외부 환경과 같은 요소들이 불확실하며, 의사결정 또한 시간의 흐름에 따라 순차적으로 이루어집니다. 본 연구실은 이러한 복잡한 의사결정 문제를 효과적으로 해결하기 위한 방법론을 연구합니다. 먼저 **stochastic programming**과 **robust optimization** 방법론을 중심으로 다양한 형태의 불확실성을 수리모형에 반영하고, 이에 대응할 수 있는 해법을 개발하는 데 관심이 있습니다. 또한 **approximate dynamic programming**과 **reinforcement learning**을 활용하여, 시간에 따라 시스템 상태가 변화하는 환경에서 현재의 선택이 미래에 미치는 영향을 고려하는 고차원의 순차적 의사결정 문제를 연구합니다.
+
+<!-- Many real-world industrial problems involve uncertainty in factors such as demand, processing times, system conditions, and external environments, while decisions must often be made sequentially over time. Our research focuses on methodologies for addressing these complex decision-making problems effectively. In particular, we are interested in stochastic programming and robust optimization as frameworks for incorporating various forms of uncertainty into optimization models and developing solution approaches that can address them. We also study high-dimensional sequential decision-making problems using approximate dynamic programming and reinforcement learning, with an emphasis on settings where system states evolve over time and current decisions influence future outcomes.-->
+
+{% endcapture %}
+
+{%
+  include feature.html
+  image="images/research_summary/sdm.png"
+  text=text
+  flip=true
+%}
+
+{% include section.html %}
+
+<div class="category-divider">
+  <i class="fas fa-rocket"></i>
+  <div>
+    <div class="category-en">Application Area</div>
+    <div class="category-ko">응용 분야</div>
+  </div>
+</div>
+
+{% include section.html %}
+
+{% capture text %}
+
+### 스마트 생산 시스템 운영
+
+**Smart Production Systems**
+
+현대의 제조환경에서는 제품 다양성의 증가, 수요 변동, 생산설비의 유연성 요구 등으로 인해 생산시스템의 설계와 운영이 점점 더 복잡해지고 있습니다. 본 연구실은 이러한 스마트 생산시스템에서 발생하는 다양한 의사결정 문제를 최적화 관점에서 연구합니다. 구체적으로는 반도체 및 디스플레이와 같은 **첨단 제조시스템의 생산계획 및 스케줄링**, **재구성형 제조시스템(Reconfigurable Manufacturing System, RMS)**의 최적 설계 및 운영, 그리고 **데이터 기반 생산용량 추정**과 이를 반영한 운영 최적화 등에 관심이 있습니다. 이를 통해 변화하는 생산 환경에 효과적으로 대응할 수 있으면서도 실제 제조시스템에 적용 가능한 계획 및 운영 방법론을 개발하는 것을 목표로 합니다.
+
+{% endcapture %}
+
+{%
+  include feature.html
+  image="/images/research_summary/sps.png"
+  text=text
+%}
+
+{% include section.html %}
+
+{% capture text %}
+
+### 에너지 시스템 최적화
+
+**Energy Systems Optimization**
+
+전기차, 배터리, 에너지 저장장치와 같이 다양한 자원이 상호작용하는 현대 에너지 시스템에서는 운영 효율성과 안정성을 동시에 고려한 의사결정이 중요해지고 있습니다. 본 연구실은 이러한 에너지 시스템의 계획, 운영, 관리와 관련된 최적화 문제를 연구합니다. 특히 Vehicle-to-Grid 기술 및 모바일 충전 로봇을 고려한 **전기차 충전시스템 운영 최적화**, 배터리 효율과 수요의 불확실성을 반영한 **에너지 저장장치(Energy Storage System, ESS)의 충·방전 계획 수립** 등에 관심이 있습니다. 이를 통해 불확실성과 시스템 간 상호작용을 고려하면서도 실제 에너지 시스템에 적용 가능한 효율적이고 안정적인 운영 방법론을 개발하는 것을 목표로 합니다.
+
+{% endcapture %}
+
+{%
+  include feature.html
+  image="/images/research_summary/grid.png"
+  text=text
+  flip=true
+%}
+
+{% include section.html %}
+
+{% capture text %}
+
+### 공급망 관리
+
+**Supply Chain Management**
+
+생산, 물류, 재고, 유통, 서비스 운영이 유기적으로 연결된 공급망 시스템에서는 다양한 의사결정이 서로 밀접하게 영향을 주고받으며, 제한된 자원과 불확실한 환경 속에서 전체 시스템의 효율성과 유연성을 높이는 것이 중요합니다. 본 연구실은 이러한 공급망의 설계, 계획, 운영과 관련된 최적화 문제를 연구합니다. 구체적으로는 **폐쇄형 공급망(Closed-loop Supply Chain)**의 계획 및 운영 최적화, **자동화된 물류 창고**의 운영 최적화, 그리고 **해운물류 시스템**의 계획 및 운영 최적화 등에 관심이 있습니다. 이를 통해 복잡한 공급망 환경에서 실제 산업 문제에 적용 가능한 분석 및 운영 방법론을 개발하는 것을 목표로 합니다.
+
+{% endcapture %}
+
+{%
+  include feature.html
+  image="/images/research_summary/scm.png"
+  text=text
+%}
+
+{% include section.html %}
+
+---
+
+## <i class="fas fa-compass"></i> Explore Our Work
+
+출판 논문 목록과 수행 프로젝트를 확인해보세요.
+{:.center}
+
+{%
+  include link.html
+  type="link"
+  icon="fas fa-book-open"
+  text="View Publications"
+  link="/pubs/"
+  style="button"
+%}
+{%
+  include link.html
+  type="link"
+  icon="fas fa-folder-open"
+  text="View Projects"
+  link="/projects/"
+  style="button"
+%}
+{:.center}
+
+{% include section.html %}
+
+---
+
+## <i class="fas fa-user-graduate"></i> Prospective Students
+
+### 대학원 진학에 관심 있으신가요?
+
+수리 최적화와 실제 운영 문제의 접점에서 연구를 함께 수행할 **대학원생** 을 모집하고 있습니다. 관심 있으신 분은 편하게 이메일로 문의해 주세요.
+
+We are actively recruiting **Graduate students** who are motivated to tackle challenging problems at the interface of mathematical optimization and real-world operations. If you are interested in joining SPS Lab, please feel free to reach out by email.
+
+{%
+  include link.html
+  type="email"
+  icon=""
+  text="younsoo.lee@ssu.ac.kr"
+  tooltip="문의 이메일"
+  link="younsoo.lee@ssu.ac.kr"
+  style="button"
+%}
+{:.center}

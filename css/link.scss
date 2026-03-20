@@ -28,7 +28,10 @@ a:hover {
   font-size: 0.9rem;
   text-decoration: none;
   vertical-align: middle;
-  transition: background $fast, color $fast, opacity $fast;
+  transition:
+    background $fast,
+    color $fast,
+    opacity $fast;
 
   span {
     text-align: left;
@@ -45,13 +48,28 @@ a:hover {
     max-width: calc(100% - 10px - 10px);
     min-height: 40px;
     margin: 10px;
-    padding: 5px 10px;
+    padding: 9px 24px;
+    gap: 10px;
     border-radius: $rounded;
     background: $accent;
     color: $white;
+    font-size: 0.88rem;
+    letter-spacing: 0.3px;
+    box-shadow: 0 2px 8px rgba(3, 169, 244, 0.28);
+    transition:
+      background $fast,
+      box-shadow $fast,
+      transform $fast;
+
+    i {
+      font-size: 0.78rem;
+      margin-right: 8px; // gap 대신 직접 제어 (FA 글리프 advance width 때문에 gap이 안 먹힘)
+    }
 
     &:hover {
-      background: $gray-500;
+      background: $gray-600;
+      box-shadow: 0 4px 14px rgba(0, 0, 0, 0.18);
+      transform: translateY(-1px);
     }
   }
 }

@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <!-- put your analytics (e.g. Google Analytics) tracking code here -->
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W7VET86K3K"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W7VET86K3K');
+</script>
+  
+
+
+
+
+
+
+
+
+
+
+<title>Sequential Decision-Making under Uncertainty | SPS Lab @ SSU</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<!-- https://metatags.io/ -->
+<meta name="title" content="Sequential Decision-Making under Uncertainty | SPS Lab @ SSU" />
+<meta name="description" content="Smart Production Systems Lab at Soongsil University" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="" />
+<meta property="og:title" content="Sequential Decision-Making under Uncertainty | SPS Lab @ SSU" />
+<meta property="og:description" content="Smart Production Systems Lab at Soongsil University" />
+<meta property="twitter:card" content="summary_large_image" />
+<meta property="twitter:url" content="" />
+<meta property="twitter:title" content="Sequential Decision-Making under Uncertainty | SPS Lab @ SSU" />
+<meta property="twitter:description" content="Smart Production Systems Lab at Soongsil University" />
+
+<!-- RSS -->
+<link
+  rel="alternate"
+  type="application/rss+xml"
+  href="https://younsoolee.github.io/feed.xml"
+/>
+
+<!-- https://developers.google.com/web/fundamentals/native-hardware/click-to-call#disable_auto-detection_when_necessary -->
+<meta name="format-detection" content="telephone=no" />
+
+  <!-- https://realfavicongenerator.net/ -->
+<link
+  rel="apple-touch-icon"
+  sizes="180x180"
+  href="/favicons/ios.png"
+/>
+<link
+  rel="icon"
+  type="image/png"
+  sizes="512x512"
+  href="/favicons/favicon.png"
+/>
+<link rel="manifest" href="/favicons/site.webmanifest" />
+
+<!-- https://metatags.io/ -->
+<meta
+  property="og:image"
+  content="/favicons/favicon.png"
+/>
+<meta
+  property="twitter:image"
+  content="/favicons/favicon.png"
+/>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@100;200;300;400;500;600&family=Noto+Serif+KR:wght@200;300;400;500;600;700;900&display=swap" rel="stylesheet">
+
+<!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.gstatic.com" />
+<link
+  href="https://fonts.googleapis.com/css2?family=Cousine:ital,wght@0,400;0,700;1,400;1,700&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap"
+  rel="stylesheet"
+/>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@200;300;400;500;600;700;900&display=swap" rel="stylesheet">
+<!-- Font Awesome icons (load asynchronously due to size) -->
+<link
+  href="https://use.fontawesome.com/releases/v6.0.0/css/all.css"
+  rel="preload"
+  as="style"
+  onload="this.onload = null; this.rel = 'stylesheet';"
+/>
+<noscript>
+  <link
+    href="https://use.fontawesome.com/releases/v6.0.0/css/all.css"
+    rel="stylesheet"
+  />
+</noscript>
+
+  <!-- site-wide css styles -->
+      <link href="/css/all.css" rel="stylesheet" />
+      <link href="/css/anchor.css" rel="stylesheet" />
+      <link href="/css/background.css" rel="stylesheet" />
+      <link href="/css/banner.css" rel="stylesheet" />
+      <link href="/css/button.css" rel="stylesheet" />
+      <link href="/css/card.css" rel="stylesheet" />
+      <link href="/css/citation.css" rel="stylesheet" />
+      <link href="/css/code.css" rel="stylesheet" />
+      <link href="/css/feature.css" rel="stylesheet" />
+      <link href="/css/figure.css" rel="stylesheet" />
+      <link href="/css/footer.css" rel="stylesheet" />
+      <link href="/css/form.css" rel="stylesheet" />
+      <link href="/css/gallery.css" rel="stylesheet" />
+      <link href="/css/header.css" rel="stylesheet" />
+      <link href="/css/heading.css" rel="stylesheet" />
+      <link href="/css/highlight.css" rel="stylesheet" />
+      <link href="/css/icon.css" rel="stylesheet" />
+      <link href="/css/image.css" rel="stylesheet" />
+      <link href="/css/input.css" rel="stylesheet" />
+      <link href="/css/link.css" rel="stylesheet" />
+      <link href="/css/list.css" rel="stylesheet" />
+      <link href="/css/paragraph.css" rel="stylesheet" />
+      <link href="/css/portrait.css" rel="stylesheet" />
+      <link href="/css/post-excerpt.css" rel="stylesheet" />
+      <link href="/css/post-info.css" rel="stylesheet" />
+      <link href="/css/post-nav.css" rel="stylesheet" />
+      <link href="/css/quote.css" rel="stylesheet" />
+      <link href="/css/role.css" rel="stylesheet" />
+      <link href="/css/rule.css" rel="stylesheet" />
+      <link href="/css/search-box.css" rel="stylesheet" />
+      <link href="/css/search-info.css" rel="stylesheet" />
+      <link href="/css/section.css" rel="stylesheet" />
+      <link href="/css/table.css" rel="stylesheet" />
+      <link href="/css/tags.css" rel="stylesheet" />
+      <link href="/css/tooltip.css" rel="stylesheet" />
+      <link href="/css/two-col.css" rel="stylesheet" />
+      <link href="/css/util.css" rel="stylesheet" />
+  <!-- third party scripts -->
+<script src="https://unpkg.com/@popperjs/core@2" defer></script>
+<script src="https://unpkg.com/tippy.js@6" defer></script>
+<script
+  src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js"
+  defer
+></script>
+
+<!-- site-wide javascript scripts -->
+<script src="/js/anchors.js" defer></script>
+  <script src="/js/fetch-tags.js" defer></script>
+  <script src="/js/search.js" defer></script>
+  <script src="/js/site-search.js" defer></script>
+  <script src="/js/tooltips.js" defer></script>
+  <script src="/js/true-hide.js" defer></script>
+  <script src="/js/util.js" defer></script>
+  
+
+</head>
+
+  <body>
+    <header class="background" style="--background: url('/images/banner_ssu.jpg')" data-dark="true">
+  <a
+    href="/"
+    class="logo_row"
+    data-tooltip="Home"
+  >
+    <img src="/images/logo.svg" class="logo" alt="Logo image" />
+    
+      <span class="logo_text">
+        <span class="logo_title">SPS Lab @ SSU</span>
+        
+          <span class="logo_subtitle">We Optimize!</span>
+        
+      </span>
+    
+  </a>
+  <nav class="nav_row"><a class="link" href="/home/" data-tooltip="Home"  data-text="true"  data-style=""><span>Home</span></a><a class="link" href="/research/" data-tooltip="연구 분야"  data-text="true"  data-style=""><span>Research</span></a><a class="link" href="/members/" data-tooltip="Members"  data-text="true"  data-style=""><span>Members</span></a><a class="link" href="/pubs/" data-tooltip="논문"  data-text="true"  data-style=""><span>Publications</span></a><a class="link" href="/projects/" data-tooltip="프로젝트"  data-text="true"  data-style=""><span>Projects</span></a><a class="link" href="/news/" data-tooltip="News"  data-text="true"  data-style=""><span>News</span></a><a class="link" href="/contact/" data-tooltip="Contact"  data-text="true"  data-style=""><span>Contact</span></a></nav>
+</header>
+
+    <main>
+      <section
+      class="background"
+      
+      
+      
+    ><p><a class="link" href="/research/" data-icon="true" data-text="true" data-style=""><i class="fas fa-arrow-left fa-lg "></i><span>← Back to Research</span></a></p>
+
+<h2 id="-sequential-decision-making-under-uncertainty"><i class="fas fa-random"></i> Sequential Decision-Making under Uncertainty</h2>
+<h3 id="불확실성-하에서의-순차적-의사결정">불확실성 하에서의 순차적 의사결정</h3>
+
+<p>Virtually all real-world operational systems must function under uncertainty. Demand fluctuates, prices are volatile, machines fail stochastically, and supply chains face disruptions. A decision that is optimal under the assumed nominal scenario can perform arbitrarily poorly when reality deviates from that assumption. Our research develops rigorous mathematical frameworks — spanning <strong>Stochastic Programming</strong>, <strong>Robust Optimization</strong>, and <strong>Approximate Dynamic Programming</strong> — that model and manage uncertainty explicitly, yielding decisions that remain good across a wide range of possible futures.</p>
+
+<p>실제 운영 시스템은 사실상 모두 불확실성 하에서 작동합니다. 수요는 변동하고, 가격은 불안정하며, 기계는 확률적으로 고장나고, 공급망은 중단을 맞습니다. 가정된 명목 시나리오에서 최적인 결정이 현실이 그 가정에서 벗어나면 임의적으로 나쁜 성과를 낼 수 있습니다. 본 연구는 불확실성을 명시적으로 모형화하고 관리하는 엄밀한 수리적 프레임워크를 개발하여, 다양한 미래 시나리오에서 좋은 성과를 유지하는 의사결정을 도출합니다.</p>
+
+</section><section
+      class="background"
+      
+      
+      
+    >
+
+<hr />
+
+<h2 id="-robust-optimization"><i class="fas fa-shield-alt"></i> Robust Optimization</h2>
+<h3 id="강건-최적화">강건 최적화</h3>
+
+<p>Robust Optimization (RO) seeks decisions that are feasible and near-optimal under <strong>any realization of uncertainty within a prescribed uncertainty set</strong>, without requiring a probability distribution over scenarios. The size and shape of the uncertainty set controls the trade-off between solution robustness and optimality: a larger set yields more conservative but safer solutions.</p>
+
+<p>강건 최적화(RO)는 시나리오에 대한 확률 분포를 요구하지 않고, <strong>규정된 불확실성 집합 내의 어떤 불확실성 실현에 대해서도</strong> 실행가능하고 근사 최적인 결정을 추구합니다. 불확실성 집합의 크기와 형태는 해의 강건성과 최적성 간의 균형을 조절합니다.</p>
+
+<p>We work with three main uncertainty set structures:</p>
+
+<p>세 가지 주요 불확실성 집합 구조를 사용합니다:</p>
+
+<ul>
+  <li><strong>Box uncertainty</strong>: Each uncertain parameter varies independently within an interval. Simple but often overly conservative — the worst case requires all parameters to simultaneously hit their worst values.</li>
+  <li><strong>Budgeted (Γ) uncertainty</strong>: Introduced by Bertsimas and Sim, this set limits the total number of parameters that can deviate from their nominal values simultaneously. It provides a tractable approximation of chance constraints and controls conservatism via the budget parameter Γ.</li>
+  <li><strong>Ellipsoidal uncertainty</strong>: Suitable when parameters follow a multivariate distribution; yields second-order cone programming (SOCP) reformulations.</li>
+</ul>
+
+<p><strong>두 단계 강건 최적화(Two-Stage RO)</strong>: 일부 결정은 불확실성이 실현되기 전에(“here-and-now”), 다른 결정은 불확실성이 관측된 후에(“wait-and-see”) 내려집니다. 이 구조는 현실적인 운영 결정을 더 잘 포착하지만, 일반적으로 계산적으로 더 어렵습니다. 본 연구에서는 Benders Decomposition과 열 생성을 결합하여 Two-Stage RO를 실용적으로 풀 수 있는 접근법을 개발합니다.</p>
+
+<h4 id="related-publications">Related Publications</h4>
+
+<ol>
+  <li>Youngchul Shin, <strong>Younsoo Lee<sup>*</sup></strong>, Two-stage Robust Optimization Approach for Integrated Supply Chain Planning with Hybrid-dark Stores, <em>Omega</em> 140, 103479, Apr. 2026. (<a href="https://doi.org/10.1016/j.omega.2025.103479">링크</a>)</li>
+  <li>Mingyu Kang, Bosung Lee, <strong>Younsoo Lee<sup>*</sup></strong>, A Robust Optimization Approach for E-bus Charging and Discharging Scheduling with Vehicle-to-Grid Integration, <em>Mathematics</em> 13(9), 1380, May. 2025. (<a href="https://doi.org/10.3390/math13091380">링크</a>)</li>
+  <li>Sungwon Hong, Jongyoon Park, <strong>Younsoo Lee<sup>*</sup></strong>, A Robust Optimization Approach for the Multi-Period Strip Cutting Problem with Multi-Cutter Slitting Machines, <em>Applied Sciences</em> 15(19), 10387, 2025. (<a href="https://doi.org/10.3390/app151910387">링크</a>)</li>
+</ol>
+
+</section><section
+      class="background"
+      
+      
+      
+    >
+
+<hr />
+
+<h2 id="-approximate-dynamic-programming"><i class="fas fa-dice"></i> Approximate Dynamic Programming</h2>
+<h3 id="근사-동적-계획법">근사 동적 계획법</h3>
+
+<p>Many operational problems are inherently <strong>sequential</strong>: decisions are made over time, each decision influences the future state, and the optimal policy must account for this temporal coupling. Dynamic Programming (DP) provides the theoretical foundation — the Bellman equation recursively defines the value of each state. However, exact DP suffers from the <strong>curse of dimensionality</strong>: the state space grows exponentially in the number of state variables, making it computationally intractable for real-world systems.</p>
+
+<p>많은 운영 문제는 본질적으로 <strong>순차적</strong> 입니다: 결정은 시간에 걸쳐 이루어지고, 각 결정은 미래 상태에 영향을 미치며, 최적 정책은 이 시간적 결합을 고려해야 합니다. 동적 계획법(DP)은 Bellman 방정식이 각 상태의 가치를 재귀적으로 정의하는 이론적 기반을 제공합니다. 그러나 정확한 DP는 <strong>차원의 저주</strong> 로 인해 상태 공간이 상태 변수 수에 따라 지수적으로 성장하여 실제 시스템에는 계산적으로 실행 불가능합니다.</p>
+
+<p><strong>Approximate Dynamic Programming (ADP)</strong> circumvents this by approximating the value function using a parametric form (e.g., linear basis functions, lookup tables over aggregated states, neural networks). The key algorithmic challenge is designing effective approximations that are both accurate and computationally cheap to update. We develop ADP algorithms tailored to the specific structure of production scheduling problems:</p>
+
+<p><strong>근사 동적 계획법(ADP)</strong> 은 파라메트릭 형태(예: 선형 기저 함수, 집계 상태에 대한 룩업 테이블, 신경망)를 사용하여 가치 함수를 근사함으로써 이 문제를 우회합니다. 핵심 알고리즘적 과제는 정확하면서도 계산 비용이 낮은 효과적인 근사를 설계하는 것입니다. 본 연구는 생산 스케줄링 문제의 특정 구조에 맞춘 ADP 알고리즘을 개발합니다:</p>
+
+<ul>
+  <li>
+    <p><strong>Value function approximation for lot-sizing</strong>: For the LSP with sequence-dependent setups, the optimal continuation value is approximated using a linear combination of state-dependent basis functions. The weights are updated via <strong>Temporal Difference (TD) learning</strong> on simulated trajectories, and the resulting approximate value function is embedded into a rolling-horizon MIP to guide scheduling decisions.</p>
+
+    <p><strong>생산계획을 위한 가치 함수 근사</strong>: 순서 의존적 셋업이 있는 LSP에서, 최적 계속 가치는 상태 의존적 기저 함수의 선형 결합으로 근사됩니다. 가중치는 시뮬레이션 궤적에 대한 <strong>시간차(TD) 학습</strong> 으로 업데이트되며, 결과적인 근사 가치 함수는 스케줄링 결정을 유도하기 위해 롤링 호라이즌 MIP에 내장됩니다.</p>
+  </li>
+  <li>
+    <p><strong>ADP for wafer-lot scheduling</strong>: Semiconductor wafer fab scheduling involves extremely large state spaces (hundreds of lots, dozens of tool groups, multiple processing steps). We design state aggregation schemes and post-decision state representations that make ADP tractable in this environment, achieving near-optimal scheduling policies without solving the full DP.</p>
+
+    <p><strong>웨이퍼 로트 스케줄링을 위한 ADP</strong>: 반도체 웨이퍼 팹 스케줄링은 극히 큰 상태 공간을 포함합니다(수백 개의 로트, 수십 개의 공정 그룹, 다중 처리 단계). 이 환경에서 ADP를 실용적으로 만드는 상태 집계 방식과 결정 후 상태 표현을 설계하여, 전체 DP를 풀지 않고도 근사 최적 스케줄링 정책을 달성합니다.</p>
+  </li>
+</ul>
+
+<h4 id="related-publications-1">Related Publications</h4>
+
+<ol>
+  <li>Sungwon Hong, <strong>Younsoo Lee<sup>*</sup></strong>, Kyungsik Lee<sup>*</sup>, An Approximate Dynamic Programming Approach to Wafer-Lot Scheduling for Parallel Multi-Chamber Equipment in Semiconductor Fabrication Lines, <em>International Journal of Production Research</em> 38(2), 1-26, Nov. 2025. (<a href="https://doi.org/10.1080/00207543.2025.2584726">링크</a>)</li>
+  <li><strong>Younsoo Lee</strong>, Kyungsik Lee<sup>*</sup>, New Integer Optimization Models and an Approximate Dynamic Programming Algorithm for the Lot-sizing and Scheduling Problem with Sequence-dependent Setups, <em>European Journal of Operational Research</em> 302(1), 230-243, Oct. 2022. (<a href="https://doi.org/10.1016/j.ejor.2021.12.032">링크</a>)</li>
+</ol>
+
+</section><section
+      class="background"
+      
+      
+      
+    >
+
+<hr />
+
+<h2 id="-current-research-bess-robust-dispatch-optimization"><i class="fas fa-database"></i> Current Research: BESS Robust Dispatch Optimization</h2>
+<h3 id="진행-중-연구-bess-강건-운영-최적화">진행 중 연구: BESS 강건 운영 최적화</h3>
+
+<p>The <strong>BESS internal dispatch problem</strong> is a concrete example of robust optimization applied to a real-world energy system under uncertainty. A Battery Energy Storage System consists of multiple battery packs, each with its own State-of-Health (SoH) and nonlinear charging/discharging efficiency curve. The BESS must follow an externally issued dispatch schedule $D_t$ from the System Operator, while internally deciding how to distribute power across packs to minimize energy losses and manage SOC balance.</p>
+
+<p><strong>BESS 내부 운영 문제</strong> 는 불확실성 하에서 실제 에너지 시스템에 적용되는 강건 최적화의 구체적인 사례입니다. BESS는 각각 고유한 SoH와 비선형 충·방전 효율 곡선을 가진 여러 배터리 팩으로 구성됩니다. BESS는 계통운영자의 외부 급전 지시 $D_t$를 따르면서, 내부적으로는 팩 간 전력 분배 방식을 결정하여 에너지 손실을 최소화하고 SOC 균형을 관리해야 합니다.</p>
+
+<p>The efficiency curves are subject to <strong>real-time uncertainty</strong> due to temperature, aging, and measurement error. We model this using a <strong>budgeted uncertainty set</strong> ($\Gamma$-robustness): at most $\Gamma$ packs may simultaneously deviate from their nominal efficiency values, with each pack’s deviation bounded by an interval. This formulation yields an <strong>MIP with uncertainty</strong> that, via standard robust counterpart derivation, transforms into a tractable deterministic MIP — allowing exact solution via branch-and-cut.</p>
+
+<p>효율 곡선은 온도, 노화, 측정 오차로 인한 <strong>실시간 불확실성</strong> 에 노출됩니다. 이를 <strong>예산형 불확실성 집합</strong> ($\Gamma$-robustness)으로 모형화합니다: 최대 $\Gamma$개의 팩만이 동시에 명목 효율값에서 벗어날 수 있으며, 각 팩의 이탈은 구간으로 한정됩니다. 이 정식화는 <strong>불확실성을 가진 MIP</strong> 를 생성하고, 표준 강건 대응 유도를 통해 tractable 결정론적 MIP로 변환되어 분기-절단으로 정확하게 풀 수 있습니다.</p>
+
+<p>For more details, see the <a href="/research/energy/">Energy Systems Optimization</a> page.</p>
+
+<p>자세한 내용은 <a href="/research/energy/">에너지 시스템 최적화</a> 페이지를 참조하세요.</p>
+
+</section><section
+      class="background"
+      
+      
+      
+    >
+
+<p><a class="link" href="/research/" data-icon="true" data-text="true" data-style=""><i class="fas fa-arrow-left fa-lg "></i><span>← Back to Research</span></a></p>
+</section>
+    </main>
+    <footer class="background" style="--background: url('/images/banner_ssu.jpg')" data-dark="true">
+
+  <!--
+  <div class="footer_row">
+    Extra details like contact info or address
+  </div>
+  -->
+  <!--
+  <div class="footer_row">
+    숭실대학교 산업·정보시스템공학과<a class="link" href="mailto:younsoo.lee@ssu.ac.kr" data-tooltip="Email" data-icon="true"   data-style=""><i class="fas fa-envelope fa-lg fa-fw"></i></a></div>
+-->
+  <div class="footer_row">
+    <span>
+      &copy; 2026 SPS Lab @ SSU
+        <!--
+      &nbsp; | &nbsp;
+      Built with <a href="https://github.com/greenelab/lab-website-template">Lab Website Template</a>
+        -->
+    </span>
+  </div>
+
+</footer>
+
+  </body>
+</html>

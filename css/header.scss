@@ -13,8 +13,9 @@ header {
   gap: 20px;
   padding: 30px;
   color: $white;
-  background: $gray-800;
+  background: linear-gradient(135deg, $indigo-900 0%, $blue-gray-900 100%);
   box-shadow: $shadow;
+  border-bottom: 3px solid $accent;
 
   & * {
     font-family: $sans;
@@ -45,7 +46,7 @@ header {
       .logo_subtitle {
         font-size: 0.9rem;
         font-style: italic;
-        color: $gray-500;
+        color: $light-blue-200;
       }
     }
   }
@@ -71,6 +72,7 @@ header {
     .link:hover {
       opacity: 1;
     }
+
   }
 
   a {

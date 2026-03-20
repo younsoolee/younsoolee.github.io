@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <!-- put your analytics (e.g. Google Analytics) tracking code here -->
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W7VET86K3K"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W7VET86K3K');
+</script>
+  
+
+
+
+
+
+
+
+
+
+
+<title>Integer Programming Theory and Algorithms | SPS Lab @ SSU</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<!-- https://metatags.io/ -->
+<meta name="title" content="Integer Programming Theory and Algorithms | SPS Lab @ SSU" />
+<meta name="description" content="Smart Production Systems Lab at Soongsil University" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="" />
+<meta property="og:title" content="Integer Programming Theory and Algorithms | SPS Lab @ SSU" />
+<meta property="og:description" content="Smart Production Systems Lab at Soongsil University" />
+<meta property="twitter:card" content="summary_large_image" />
+<meta property="twitter:url" content="" />
+<meta property="twitter:title" content="Integer Programming Theory and Algorithms | SPS Lab @ SSU" />
+<meta property="twitter:description" content="Smart Production Systems Lab at Soongsil University" />
+
+<!-- RSS -->
+<link
+  rel="alternate"
+  type="application/rss+xml"
+  href="https://younsoolee.github.io/feed.xml"
+/>
+
+<!-- https://developers.google.com/web/fundamentals/native-hardware/click-to-call#disable_auto-detection_when_necessary -->
+<meta name="format-detection" content="telephone=no" />
+
+  <!-- https://realfavicongenerator.net/ -->
+<link
+  rel="apple-touch-icon"
+  sizes="180x180"
+  href="/favicons/ios.png"
+/>
+<link
+  rel="icon"
+  type="image/png"
+  sizes="512x512"
+  href="/favicons/favicon.png"
+/>
+<link rel="manifest" href="/favicons/site.webmanifest" />
+
+<!-- https://metatags.io/ -->
+<meta
+  property="og:image"
+  content="/favicons/favicon.png"
+/>
+<meta
+  property="twitter:image"
+  content="/favicons/favicon.png"
+/>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@100;200;300;400;500;600&family=Noto+Serif+KR:wght@200;300;400;500;600;700;900&display=swap" rel="stylesheet">
+
+<!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.gstatic.com" />
+<link
+  href="https://fonts.googleapis.com/css2?family=Cousine:ital,wght@0,400;0,700;1,400;1,700&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap"
+  rel="stylesheet"
+/>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@200;300;400;500;600;700;900&display=swap" rel="stylesheet">
+<!-- Font Awesome icons (load asynchronously due to size) -->
+<link
+  href="https://use.fontawesome.com/releases/v6.0.0/css/all.css"
+  rel="preload"
+  as="style"
+  onload="this.onload = null; this.rel = 'stylesheet';"
+/>
+<noscript>
+  <link
+    href="https://use.fontawesome.com/releases/v6.0.0/css/all.css"
+    rel="stylesheet"
+  />
+</noscript>
+
+  <!-- site-wide css styles -->
+      <link href="/css/all.css" rel="stylesheet" />
+      <link href="/css/anchor.css" rel="stylesheet" />
+      <link href="/css/background.css" rel="stylesheet" />
+      <link href="/css/banner.css" rel="stylesheet" />
+      <link href="/css/button.css" rel="stylesheet" />
+      <link href="/css/card.css" rel="stylesheet" />
+      <link href="/css/citation.css" rel="stylesheet" />
+      <link href="/css/code.css" rel="stylesheet" />
+      <link href="/css/feature.css" rel="stylesheet" />
+      <link href="/css/figure.css" rel="stylesheet" />
+      <link href="/css/footer.css" rel="stylesheet" />
+      <link href="/css/form.css" rel="stylesheet" />
+      <link href="/css/gallery.css" rel="stylesheet" />
+      <link href="/css/header.css" rel="stylesheet" />
+      <link href="/css/heading.css" rel="stylesheet" />
+      <link href="/css/highlight.css" rel="stylesheet" />
+      <link href="/css/icon.css" rel="stylesheet" />
+      <link href="/css/image.css" rel="stylesheet" />
+      <link href="/css/input.css" rel="stylesheet" />
+      <link href="/css/link.css" rel="stylesheet" />
+      <link href="/css/list.css" rel="stylesheet" />
+      <link href="/css/paragraph.css" rel="stylesheet" />
+      <link href="/css/portrait.css" rel="stylesheet" />
+      <link href="/css/post-excerpt.css" rel="stylesheet" />
+      <link href="/css/post-info.css" rel="stylesheet" />
+      <link href="/css/post-nav.css" rel="stylesheet" />
+      <link href="/css/quote.css" rel="stylesheet" />
+      <link href="/css/role.css" rel="stylesheet" />
+      <link href="/css/rule.css" rel="stylesheet" />
+      <link href="/css/search-box.css" rel="stylesheet" />
+      <link href="/css/search-info.css" rel="stylesheet" />
+      <link href="/css/section.css" rel="stylesheet" />
+      <link href="/css/table.css" rel="stylesheet" />
+      <link href="/css/tags.css" rel="stylesheet" />
+      <link href="/css/tooltip.css" rel="stylesheet" />
+      <link href="/css/two-col.css" rel="stylesheet" />
+      <link href="/css/util.css" rel="stylesheet" />
+  <!-- third party scripts -->
+<script src="https://unpkg.com/@popperjs/core@2" defer></script>
+<script src="https://unpkg.com/tippy.js@6" defer></script>
+<script
+  src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js"
+  defer
+></script>
+
+<!-- site-wide javascript scripts -->
+<script src="/js/anchors.js" defer></script>
+  <script src="/js/fetch-tags.js" defer></script>
+  <script src="/js/search.js" defer></script>
+  <script src="/js/site-search.js" defer></script>
+  <script src="/js/tooltips.js" defer></script>
+  <script src="/js/true-hide.js" defer></script>
+  <script src="/js/util.js" defer></script>
+  
+
+</head>
+
+  <body>
+    <header class="background" style="--background: url('/images/banner_ssu.jpg')" data-dark="true">
+  <a
+    href="/"
+    class="logo_row"
+    data-tooltip="Home"
+  >
+    <img src="/images/logo.svg" class="logo" alt="Logo image" />
+    
+      <span class="logo_text">
+        <span class="logo_title">SPS Lab @ SSU</span>
+        
+          <span class="logo_subtitle">We Optimize!</span>
+        
+      </span>
+    
+  </a>
+  <nav class="nav_row"><a class="link" href="/home/" data-tooltip="Home"  data-text="true"  data-style=""><span>Home</span></a><a class="link" href="/research/" data-tooltip="연구 분야"  data-text="true"  data-style=""><span>Research</span></a><a class="link" href="/members/" data-tooltip="Members"  data-text="true"  data-style=""><span>Members</span></a><a class="link" href="/pubs/" data-tooltip="논문"  data-text="true"  data-style=""><span>Publications</span></a><a class="link" href="/projects/" data-tooltip="프로젝트"  data-text="true"  data-style=""><span>Projects</span></a><a class="link" href="/news/" data-tooltip="News"  data-text="true"  data-style=""><span>News</span></a><a class="link" href="/contact/" data-tooltip="Contact"  data-text="true"  data-style=""><span>Contact</span></a></nav>
+</header>
+
+    <main>
+      <section
+      class="background"
+      
+      
+      
+    ><p><a class="link" href="/research/" data-icon="true" data-text="true" data-style=""><i class="fas fa-arrow-left fa-lg "></i><span>← Back to Research</span></a></p>
+
+<h2 id="-integer-programming-theory-and-algorithms"><i class="fas fa-superscript"></i> Integer Programming Theory and Algorithms</h2>
+<h3 id="정수-최적화-이론-및-알고리즘">정수 최적화 이론 및 알고리즘</h3>
+
+<p>Many critical operational problems — in manufacturing, logistics, energy systems, and beyond — reduce to <strong>Mixed-Integer Programming (MIP)</strong> models. Despite MIP’s power as a modeling language, solving large-scale instances to provable optimality remains computationally challenging: the feasible region is discrete and combinatorially explosive. Our research advances MIP theory and algorithm design, with the goal of making it possible to solve progressively larger and more complex real-world instances.</p>
+
+<p>제조, 물류, 에너지 시스템 등 많은 핵심 운영 문제는 <strong>혼합 정수 프로그래밍(MIP)</strong> 모형으로 귀결됩니다. MIP는 강력한 모형화 언어이지만, 대규모 인스턴스를 증명 가능한 최적해로 푸는 것은 계산적으로 여전히 어렵습니다. 본 연구는 MIP 이론과 알고리즘 설계를 발전시켜, 더 크고 복잡한 실제 문제를 풀 수 있게 하는 것을 목표로 합니다.</p>
+
+</section><section
+      class="background"
+      
+      
+      
+    >
+
+<hr />
+
+<h2 id="-polyhedral-analysis-and-valid-inequalities"><i class="fas fa-draw-polygon"></i> Polyhedral Analysis and Valid Inequalities</h2>
+<h3 id="다면체-분석-및-유효-부등식">다면체 분석 및 유효 부등식</h3>
+
+<p>The LP relaxation of a MIP — obtained by relaxing integrality — typically has a much larger feasible region than the true integer feasible set. The <strong>LP relaxation bound</strong> determines how efficiently a branch-and-bound tree can be pruned; a weak relaxation leads to an exponentially large tree. The primary tool for tightening the LP relaxation is the theory of <strong>valid inequalities</strong>: linear constraints that are satisfied by all integer-feasible solutions but violated by some LP-fractional ones.</p>
+
+<p>MIP의 LP 완화는 정수성 제약을 완화하여 얻어지며, 실제 정수 실행가능 집합보다 훨씬 큰 실행가능 영역을 가집니다. <strong>LP relaxation 경계</strong> 는 분기-한정 트리가 얼마나 효율적으로 가지치기될 수 있는지를 결정합니다. LP relaxation을 강화하는 주요 도구는 <strong>유효 부등식(Valid Inequality)</strong> 이론입니다: 모든 정수 실행가능 해가 만족하지만 일부 LP 분수 해가 위반하는 선형 제약 조건입니다.</p>
+
+<p>Our research focuses on <strong>deriving strong valid inequalities for production planning MIP models</strong>, particularly for the <strong>Lot-sizing and Scheduling Problem (LSP)</strong> with sequence-dependent setups. The key contributions include:</p>
+
+<p>본 연구는 <strong>생산계획 MIP 모형을 위한 강력한 유효 부등식 유도</strong> 에 집중하며, 특히 순서 의존적 셋업이 있는 <strong>생산계획 및 스케줄링 문제(LSP)</strong> 를 대상으로 합니다. 핵심 기여는 다음과 같습니다:</p>
+
+<ul>
+  <li>
+    <p><strong>Single-period relaxation analysis</strong>: By studying the structure of a single-period relaxation of the multi-period LSP, we derive valid inequalities that are facet-defining for this relaxation — and thus strengthening for the full model. This polyhedral analysis reveals the combinatorial structure underlying the setup/production interaction.</p>
+
+    <p><strong>단일 기간 완화 분석</strong>: 다기간 LSP의 단일 기간 완화 구조를 분석하여, 이 완화의 면-정의(facet-defining) 유효 부등식을 유도합니다. 이 다면체 분석은 셋업/생산 상호작용의 조합론적 구조를 드러냅니다.</p>
+  </li>
+  <li>
+    <p><strong>Extended formulations</strong>: We develop tighter MIP formulations using additional variables that model intermediate quantities (e.g., setup carry-over, interval-based production). These extended formulations have stronger LP relaxations by construction, often allowing the root-node LP to provide bounds competitive with the full branch-and-cut tree of the original formulation.</p>
+
+    <p><strong>확장 정식화</strong>: 중간 수량(셋업 이월, 구간 기반 생산 등)을 모형화하는 추가 변수를 사용하여 더 강한 MIP 정식화를 개발합니다. 이 확장 정식화는 설계상 더 강한 LP relaxation을 가지며, 종종 루트 노드 LP만으로도 원래 정식화의 전체 분기-절단 트리에 필적하는 경계를 제공합니다.</p>
+  </li>
+  <li>
+    <p><strong>Cutting plane algorithm</strong>: Valid inequalities are separated and added dynamically within a Branch-and-Cut framework, where only inequalities that cut off the current LP solution are generated. This lazy generation strategy keeps the LP size manageable while achieving strong bounds.</p>
+
+    <p><strong>절단 평면 알고리즘</strong>: 유효 부등식은 Branch-and-Cut 프레임워크 내에서 동적으로 분리·추가되며, 현재 LP 해를 절단하는 부등식만 생성합니다. 이 지연 생성 전략은 LP 크기를 관리 가능하게 유지하면서 강한 경계를 달성합니다.</p>
+  </li>
+</ul>
+
+<h4 id="related-publications">Related Publications</h4>
+
+<ol>
+  <li><strong>Younsoo Lee</strong>, Kyungsik Lee<sup>*</sup>, Valid Inequalities and Extended Formulations for Lot-sizing and Scheduling Problem with Sequence-dependent Setups, <em>European Journal of Operational Research</em> 310(1), 201-216, Oct. 2023. (<a href="https://doi.org/10.1016/j.ejor.2023.03.003">링크</a>)</li>
+  <li><strong>Younsoo Lee</strong>, Kyungsik Lee<sup>*</sup>, New Integer Optimization Models and an Approximate Dynamic Programming Algorithm for the Lot-sizing and Scheduling Problem with Sequence-dependent Setups, <em>European Journal of Operational Research</em> 302(1), 230-243, Oct. 2022. (<a href="https://doi.org/10.1016/j.ejor.2021.12.032">링크</a>)</li>
+  <li><strong>Younsoo Lee</strong>, Kyungsik Lee<sup>*</sup>, Lot-sizing and Scheduling in Flat-Panel Display Manufacturing Process, <em>Omega</em> 93, 102036, Jun. 2020. (<a href="https://doi.org/10.1016/j.omega.2019.02.005">링크</a>)</li>
+</ol>
+
+</section><section
+      class="background"
+      
+      
+      
+    >
+
+<hr />
+
+<h2 id="-decomposition-based-algorithms"><i class="fas fa-code-branch"></i> Decomposition-based Algorithms</h2>
+<h3 id="분해-기반-알고리즘">분해 기반 알고리즘</h3>
+
+<p>Beyond cutting plane methods, many large-scale MIP problems can be solved more efficiently by exploiting <strong>decomposable structure</strong>. When a problem decomposes by time period, geography, product, or vehicle, we can apply <strong>Benders Decomposition</strong> or <strong>Branch-and-Price (Column Generation)</strong> to divide the problem into a manageable master problem and a set of tractable subproblems.</p>
+
+<p>절단 평면 방법을 넘어, 많은 대규모 MIP 문제는 <strong>분해 가능한 구조</strong> 를 활용하여 더 효율적으로 풀 수 있습니다. 문제가 시간, 지역, 제품 또는 차량별로 분해될 때, <strong>Benders 분해</strong> 또는 <strong>Branch-and-Price(열 생성)</strong> 를 적용하여 문제를 다루기 쉬운 마스터 문제와 tractable 하위 문제의 집합으로 분리할 수 있습니다.</p>
+
+<p>In our work on <strong>parallel-line lot-sizing and scheduling</strong>, we apply Dantzig-Wolfe decomposition to obtain a reformulation where each column corresponds to a single-line production schedule. The pricing subproblem for each line reduces to a shortest-path problem on a directed acyclic graph — solvable in polynomial time — making Branch-and-Price both provably optimal and computationally practical at scale.</p>
+
+<p><strong>병렬 라인 생산계획 및 스케줄링</strong> 연구에서는 Dantzig-Wolfe 분해를 적용하여 각 열이 단일 라인 생산 스케줄에 대응하는 재정식화를 도출합니다. 각 라인의 가격 결정 하위 문제는 유향 비순환 그래프(DAG)에서의 최단 경로 문제로 환원되어 — 다항 시간에 풀 수 있어 — Branch-and-Price가 증명 가능한 최적성과 계산적 실용성을 동시에 갖추게 합니다.</p>
+
+<h4 id="related-publication">Related Publication</h4>
+
+<ol>
+  <li>Seyoung Oh, Jinyeong Jeong, <strong>Younsoo Lee<sup>*</sup></strong>, Kyungsik Lee<sup>*</sup>, A Branch-and-Price Algorithm for the Parallel-line Lot-sizing and Scheduling Problem in Flat-panel Display Manufacturing Process, <em>Omega</em> 138, 103386, Jan. 2026. (<a href="https://doi.org/10.1016/j.omega.2025.103386">링크</a>)</li>
+</ol>
+
+</section><section
+      class="background"
+      
+      
+      
+    >
+
+<p><a class="link" href="/research/" data-icon="true" data-text="true" data-style=""><i class="fas fa-arrow-left fa-lg "></i><span>← Back to Research</span></a></p>
+</section>
+    </main>
+    <footer class="background" style="--background: url('/images/banner_ssu.jpg')" data-dark="true">
+
+  <!--
+  <div class="footer_row">
+    Extra details like contact info or address
+  </div>
+  -->
+  <!--
+  <div class="footer_row">
+    숭실대학교 산업·정보시스템공학과<a class="link" href="mailto:younsoo.lee@ssu.ac.kr" data-tooltip="Email" data-icon="true"   data-style=""><i class="fas fa-envelope fa-lg fa-fw"></i></a></div>
+-->
+  <div class="footer_row">
+    <span>
+      &copy; 2026 SPS Lab @ SSU
+        <!--
+      &nbsp; | &nbsp;
+      Built with <a href="https://github.com/greenelab/lab-website-template">Lab Website Template</a>
+        -->
+    </span>
+  </div>
+
+</footer>
+
+  </body>
+</html>
