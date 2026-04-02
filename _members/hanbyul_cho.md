@@ -1,20 +1,19 @@
 ---
 name: Hanbyul Cho
-image: 
-description: 
+published: false
+image:
+description:
 role: grad
 aliases:
   - H. Cho
   - Hanbyul Cho
 links:
-  email: 
+  email:
   #orcid, twitter
 ---
 
-
 ### Research Interests
 
-### Work Experience 
-
+### Work Experience
 
 ### Education
