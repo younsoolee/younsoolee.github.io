@@ -22,8 +22,8 @@
 #   status: review    → "under review"(심사 중) 배지
 #   status 줄 자체를 지우면 → 제목만 표시
 wip:
-  - title: "Closed-Loop Supply Chain Model with Third-Party Logistics–Based Return Management System: A Two-stage Stochastic Programming Approach"
-    status: review
+  - title: "Closed-Loop Supply Chain Model with Third-Party Logistics–Based Return Management System"
+    status: accepted 
   - title: "A Robust Optimization Approach for Multi-Pack Battery Scheduling under Efficiency and State-of-Charge Uncertainty"
   - title: "Optimization of Electric Vehicle Charging Schedules with Mobile Charging Robots"
   - title: "Optimization of Electric Vehicle Battery Swapping Station Operations with State-of-Health Considerations"

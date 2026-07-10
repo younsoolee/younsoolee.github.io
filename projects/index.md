@@ -14,6 +14,16 @@ nav:
   <div class="proj-group">Soongsil University</div>
 
   <div class="proj">
+    <div class="proj_title">전기차 충전 운영 최적화 알고리즘 개발 용역</div>
+    <div class="proj_meta">
+      <span class="chip"><i class="fas fa-building"></i> 민간기업</span>
+      <span class="chip"><i class="fas fa-user"></i> PI</span>
+      <span class="chip"><i class="fas fa-calendar"></i> 2026.05 – 2026.06</span>
+    </div>
+    <p class="proj_desc"> 전기차 충전 편의성 향상 및 수요반응(DR) 서비스 고도화를 위한 최적화 모형 및 알고리즘을 개발합니다.</p>
+  </div>
+
+  <div class="proj">
     <div class="proj_title">불확실성 하에서의 재구성형 제조시스템 운영을 위한 통합 최적화 프레임워크 연구</div>
     <div class="proj_meta">
       <span class="chip"><i class="fas fa-landmark"></i> 한국연구재단 · 신진연구 A</span>
@@ -50,7 +60,7 @@ nav:
       <span class="chip"><i class="fas fa-user"></i> PI</span>
       <span class="chip"><i class="fas fa-calendar"></i> 2023.05 – 2024.04</span>
     </div>
-    <p class="proj_desc">V2G(Vehicle-to-Grid) 기술을 포함한 스마트 충전 인프라 환경에서 전기차 충전소의 운영 스케줄을 최적화하는 수리 모형 및 알고리즘을 개발합니다.</p>
+    <p class="proj_desc">V2G (Vehicle-to-Grid) 기술을 포함한 스마트 충전 인프라 환경에서 전기차 충전소의 운영 스케줄을 최적화하는 수리 모형 및 알고리즘을 개발합니다.</p>
   </div>
 </div>
 
