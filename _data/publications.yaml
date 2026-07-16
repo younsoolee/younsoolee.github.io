@@ -22,8 +22,6 @@
 #   status: review    → "under review"(심사 중) 배지
 #   status 줄 자체를 지우면 → 제목만 표시
 wip:
-  - title: "Closed-Loop Supply Chain Model with Third-Party Logistics–Based Return Management System"
-    status: accepted 
   - title: "A Robust Optimization Approach for Multi-Pack Battery Scheduling under Efficiency and State-of-Charge Uncertainty"
   - title: "Optimization of Electric Vehicle Charging Schedules with Mobile Charging Robots"
   - title: "Optimization of Electric Vehicle Battery Swapping Station Operations with State-of-Health Considerations"
@@ -31,6 +29,16 @@ wip:
 
 # ── 국제 저널 (International Publications) ───────────────────
 journal_intl:
+  
+  - title: "Closed-Loop Supply Chain Model with Third-Party Logistics–Based Return Management System"
+    authors:
+      - S. Yoon
+      - { name: Y. Lee, me: true, corr: true }
+      - { name: Y. Shin, corr: true }
+    venue: "Transportation Research Part E: Logistics and Transportation Review"
+    detail: "215, 105077, Nov. 2026"
+    doi: "10.1016/j.tre.2026.105077"
+
   - title: "Two-stage Robust Optimization Approach for Integrated Supply Chain Planning with Hybrid-dark Stores"
     authors:
       - Y. Shin
